@@ -1,5 +1,5 @@
 <h1>Welcome to Intro to Web Development</h1>
-<p>Welcome to the course! This repository contains the materials you will need throughout the class.</p>
+<p>Welcome to the course! This repository contains the materials you will need throughout the class. As we progress through the course, I will add files to the class folders.  For now, some of them are empty, so all of us can keep the same pace.</p>
 
 <p>You can see the <strong>syllabus</strong> here:<br>
 <a href=""Syllabus_IntroToWebDev.pdf>Syllabus_IntroToWebDev.pdf</a></p>
