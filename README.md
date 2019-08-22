@@ -2,7 +2,7 @@
 <p>Welcome to the course! This repository contains the materials you will need throughout the class. As we progress through the course, I will add files to the class folders.  For now, some of them are empty, so all of us can keep the same pace.</p>
 
 <p>You can see the <strong>syllabus</strong> here:<br>
-<a href=""Syllabus_IntroToWebDev.pdf>Syllabus_IntroToWebDev.pdf</a></p>
+<a href="Syllabus_IntroToWebDev.pdf">Syllabus_IntroToWebDev.pdf</a></p>
 
 <p><strong>Class outline</strong>, breaking down what we are going to learn and when:
 <a href="Class_Outline.md">Class_Outline.md</a></p>
