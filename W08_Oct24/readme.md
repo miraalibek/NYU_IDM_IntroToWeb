@@ -1,13 +1,8 @@
 <h1>WEEK 8 | Oct 24 </h1>
-<p><strong>Intro to JS:</strong><br>
-Let's look at some basics - like syntax and main building blocks<br>
-Here is <a href="IntrotoWeb_W8_JSBasics.pdf">the pdf</a> with that info and some resource links.</p>
-<p><strong>Code:</strong><br><a href="">Here</a> is a closer look at sample JS code and some examples of what javascript can do.</p>
-<p>Let's write a bit of javascript together<br>
-<strong>Exercise</strong><br>
-Create a script with two variables, each assigned to a number. Add them together and output the result to the console. Now do the same with two strings.
-Create a multidimensional array related to a subject that interests you. Output two of the items in sub-arrays to the console.
-
-Use this starter files --> <a href="">files TBD</a>
-
+<p><strong>WORKSHOP AND REVIEW</strong><br>
+This class is a chance to review some topics from before our midterms. Students can request to go over and practice certain material<br>
 </p>
+<p><strong>This could include:</strong><br>
+- Flexbox: building with flexbox modules;<br>
+- CSS Grid Module: going over some more complex layouts with this method (think more dynamic layouts like the example of the masonry grid);<br>
+- Bootstrap: practice layout, using this framework </p>

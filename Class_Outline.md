@@ -84,6 +84,9 @@ This outline might change, allowing for some slight reshuffling of content. This
 
 <h4>WEEK 7</h4>
 <em>Oct 15</em><br>
+No Class<br><br>
+
+<em>Oct 17</em><br>
 - Responsive design: concepts & guiding principles<br>
 - Types of layouts (fixed, fluid, adaptive, responsive ) <br>
 - Looking at more samples of various UI patterns for responsive <br>
@@ -91,49 +94,55 @@ This outline might change, allowing for some slight reshuffling of content. This
 - Overview of some proportional units<br>
 - HOMEWORK REMINDER: project proposals due Oct 17th<br><br>
 
-<em>Oct 17</em><br>
-- Midterm presentations: Proposals for the final project<br><br>
-
 <h4>WEEK 8</h4>
 <em>Oct 22</em><br>
-Javascript: basic terminology: variables, arrays, functions, conditionals<br><br>
+Midterm Proposals:Presentations and critiques<br><br>
 
 <em>Oct 24</em><br>
-
+WORKSHOP AND REVIEW<br>
+This class is a chance to review some topics from before our midterms. Students can request to go over and practice certain material (might include Flexbox, CSS Grid module or responsive)<br><br>
 
 <h4>WEEK 9</h4>
-<em>Oct 29 & Oct 31</em><br>
-JS math, events, loops
+<em>Oct 29</em><br>
+Intro to JS: syntax, basic terminology, integration with HTML, examples (what JS can do), exercise: writing some basic code<br><br>
+<em>Oct 31</em><br>
+Intro to DOM Manipulation: alert function, grabbing elements by ID, Class, Element name, changing innerHTML, events & functions<br><br>
 
 
 <h4>WEEK 10</h4>
-<em>Nov 5 & Nov 7</em><br>
-DOM manipulation, DOM tree structure/nodes, alert function, grabbing elements by ID, Class, Elements, changing innerHTML<br>
+<em>Nov 5</em><br>
+Practicing JS & JS math, events, loops<br><br>
+<em>Nov 7</em>
+Javascript events and animations<br><br>
 
 <h4>WEEK 11</h4>
 <em>Nov 12</em><br>
-Jquery: intro, jQuery effects (hid/show, fade, slide, add/append, remove, addClass, set CSS)<br>
-<em>Nov 14</em><br><br>
+Jquery: intro, jQuery effects (hid/show, fade, slide, add/append, remove, addClass, set CSS)<br><br>
+<em>Nov 14</em><br>
+Jquery: more complex Jquery examples & workshop class<br><br>
 
 <h4>WEEK 12</h4>
 <em>Nov 19</em><br>
-more JS, final project preparations, in -class workshop<br>
-<em>Nov 21</em><br><br>
+JS objects, website hosting, internet structure in macro (DNS), read about server side of the web<br>
+<em>Nov 21</em><br>
+Materialize framework: looking at .js/.css files available; building out layouts based on templates<br><br>
 
 <h4>WEEK 13</h4>
 <em>Nov 24</em><br>
-JS objects, website hosting, internet structure in macro (DNS), read about server side of the web<br><br>
+Coming back to Bootstrap and looking at its .js code and teamplate examples.<br><br>
 <em>Nov 26</em><br>
-Thanksgiving
+NO CLASS - Thanksgiving break<br><br>
 
 <h4>WEEK 14</h4>
-<em>Dec 3 & Dec 5</em><br>
-Final project workshop, review of various topics requested by students
-<em></em><br>
+<em>Dec 3</em><br>
+Review class: this class is reserved for reviewing material that student find important/difficult. These topics are determined earlier (Nov 24)<br><br>
+<em>Dec 5</em><br>
+Getting ready for final presentations: Workshop class <br><br>
 
 <h4>WEEK 15</h4>
 <em>Dec 10</em><br>
-Final project presentations, group critiques
+Getting ready for final presentations: Workshop class<br><br>
 <em>Dec 12</em><br>
+Final project presentations, group critiques
 
 DEC 13 >> last day of classes
