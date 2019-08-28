@@ -7,8 +7,6 @@
 <p><strong>Class outline</strong>, breaking down what we are going to learn and when:
 <a href="Class_Outline.md">Class_Outline.md</a></p>
 
-<p><strong>Some links and resources</strong><br>
-Slack (if you need to discuss/ask questions): <a href="https://nyu--idm.slack.com">https://nyu--idm.slack.com</a> (the invite link will be sent out to the class)<br>
 
 </p>
 
