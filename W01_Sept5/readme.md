@@ -1,9 +1,6 @@
 <h1>WEEK 1 | Sept 5 </h1>
-We are continuing to talk about some basic HTML code. We also make time for our design inspiration presentations.
+<p>We are continuing to talk about some basic HTML code. We also make time for our design inspiration presentations.</p>
 
-<p><strong>Design inspiration: presentations</strong><br>
-Each students presents their design inspiration to the class.
-</p
 <p><strong>More basic HTML</strong><br>
 - Whatever wasn't covered in <a href="../W1_Sept3">previous class</a> <br>
 - Some basic text blocks: <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W1_Sept5/code">html files</a><br>
