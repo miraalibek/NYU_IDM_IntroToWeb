@@ -1,4 +1,7 @@
 <h1>WEEK 2 | Sept 10 </h1>
+<p><strong>Design inspiration: presentations</strong><br>
+Each students presents their design inspiration to the class.
+</p>
 <p><strong>Organizing content</strong><br>
 UX basics, deliverables, concepts, UI patterns, CTAs<br>
 <a href="IntrotoWeb_W2_OrganizingContent.pdf">Slide pdf</a> has some references and links you might need.</p>
