@@ -17,8 +17,11 @@ Download at <a href="https://atom.io/">https://atom.io/</a><br>Some pbackages yo
 Basic syntax, structure of HTML document, text blocks, links <br>
 <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W1_Sept3/code">HTML files</a><br>
 <a href="IntrotoWeb_W1_BasicHTML.pdf">slides</a>
-<p><strong><span style="background-color: #75ffd8;">HOMEWORK: Design inspiration<span> </strong><br>
-What website(s)/designer(s) (digital or otherwise)/brand that inspires you? <br>
-- Prepare a small presentation (3 slides or more)<br>
-- Open Github account and create a repository for your homework. Upload your presentation file there and/or share with me on slack.
+<p><strong><span style="background-color: #75ffd8;">HOMEWORK: <span> </strong><br>
+- Download & install atom editor <br>
+- Download and install packages for atom: <a href="https://atom.io/packages/atom-html-preview">HTML preview</a> & <a href="https://atom.io/packages/w3c-validation">W3C Validation</a><br>
+- Open a github account: <a href="https://github.com/join">join here</a><br>
+- Create a new repository for your work: <a href="https://help.github.com/en/articles/create-a-repo">how to</a>
+<br>
+</a>
 </p>
