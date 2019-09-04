@@ -6,6 +6,9 @@
 - Some basic text blocks: <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W1_Sept5/code">html files</a><br>
 - What is semantic HTML, why developed: <a href="IntrotoWeb_W1B_SemanticHTML.pdf">slides</a><br>
 - Validation (inside Atom and with W3C sites <a href="https://validator.w3.org/#validate_by_upload">HTML</a> & <a href="https://jigsaw.w3.org/css-validator/#validate_by_upload">CSS</a> ) <br></p>
+<p>Another helpful atom package: <a href="https://atom.io/packages/autoclose-html">autoclose your tags</a><br>
+This can help to: <a href="https://atom.io/packages/autocomplete-paths">autocomplete paths</a></p>
+
 <p><strong><span style="background-color: #75ffd8;">HOMEWORK: Design inspiration<span> </strong><br>
 What website(s)/designer(s) (digital or otherwise)/brand that inspires you? <br>
 - Prepare a small presentation (3 slides or more)<br>
