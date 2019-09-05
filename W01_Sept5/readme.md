@@ -1,5 +1,5 @@
 <h1>WEEK 1 | Sept 5 </h1>
-<p>We are continuing to talk about some basic HTML code. We also make time for our design inspiration presentations.</p>
+<p>We are continuing to talk about some basic HTML code. We will work in Atom to create some simple .html page that starts outlining what we might want to build for the final project.</p>
 
 <p><strong>More basic HTML</strong><br>
 - Whatever wasn't covered in <a href="../W1_Sept3">previous class</a> <br>
