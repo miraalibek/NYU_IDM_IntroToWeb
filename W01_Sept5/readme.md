@@ -9,10 +9,11 @@
 <p>Another helpful atom package: <a href="https://atom.io/packages/autoclose-html">autoclose your tags</a><br>
 This can help to: <a href="https://atom.io/packages/autocomplete-paths">autocomplete paths</a></p>
 
-<p><strong>Web Specs:</strong> We are going to talk about what web specs are and why such documents are important. We also going practice some HTML coding, by outlining our simplified web specs.<a href="code.zip">download zipped files to work with</a></p>
+<p><strong>Web Specs:</strong> We are going to talk about what web specs are and why such documents are important. We also going practice some HTML coding, by outlining our simplified web specs. <a href="code.zip">Download zipped files</a></p>
 
 <p><strong><span style="background-color: #75ffd8;">HOMEWORK: Design inspiration<span> </strong><br>
-What website(s)/designer(s) (digital or otherwise)/brand that inspires you? <br>
-- Prepare a small presentation (3 slides or more)<br>
-- Open Github account and create a repository for your homework. Upload your presentation file there and/or share with me on slack.
+What website(s)/designer(s) (digital or otherwise)/brands/artists/etc that inspires you? <br>
+- Prepare a small presentation (3-5 slides)<br>
+- Upload this to your github repository<br>
+- Make sure to email/slack me your link/file before beginning of next class.
 </p>
