@@ -9,7 +9,7 @@
 <p>Another helpful atom package: <a href="https://atom.io/packages/autoclose-html">autoclose your tags</a><br>
 This can help to: <a href="https://atom.io/packages/autocomplete-paths">autocomplete paths</a></p>
 
-<p>Web Specs: We are going to talk about what web specs are and why such documents are important. We also going practice some HTML coding, by outlining our simplified web specs.<a href="code.zip>download zipped files to work with</a></p>
+<p><strong>Web Specs:</strong> We are going to talk about what web specs are and why such documents are important. We also going practice some HTML coding, by outlining our simplified web specs.<a href="code.zip">download zipped files to work with</a></p>
 
 <p><strong><span style="background-color: #75ffd8;">HOMEWORK: Design inspiration<span> </strong><br>
 What website(s)/designer(s) (digital or otherwise)/brand that inspires you? <br>
