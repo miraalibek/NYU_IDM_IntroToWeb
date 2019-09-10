@@ -30,6 +30,7 @@ UX basics, deliverables, concepts, UI patterns, CTAs<br>
 <p><b>HOMEWORK:</b><br>
 - Install Adobe Photoshop and Illustrator: <a href="https://www.nyu.edu/life/information-technology/getting-started/students.html">more about how to get it as NYU student</a><br>
 - If you have a mac, please install trial version of Sketch (good for 30 days). You can download a free trial <a href="https://www.sketch.com/">here</a>. <i>Note: this is just so you can follow in class with Sketch files. Will not be necessary for homework... Adobe will be though!</i> <br>
-- Bring paper + pencil to next class: we'll go analog with some wireframing sketches
+- Bring paper + pencil to next class: we'll go analog with some wireframing sketches<br>
+- If we didn't get a chance to look at <b>tables</b>, do that on your own time!
 
 </p>
