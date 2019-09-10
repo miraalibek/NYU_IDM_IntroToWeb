@@ -1,4 +1,9 @@
 <h1>WEEK 2 | Sept 12 </h1>
+
+<p><strong>Wire-framing</strong><br>
+  Looking inside Sketch. You can download a free trial <a href="https://www.sketch.com/">here</a>. <br>Here is a <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/blob/master/W2_Sept10/wireframe_example.sketch">sketch example.</a></p>
+<p><strong>Activity</strong><br>Sketching a page (pencil & paper or Sketch), looking at UI libraries in Sketch</p>
+
 <p><strong>Intro to CSS</strong><br>
 Basic syntax, Integration with HTML, different selectors > <a href="IntrotoWeb_W2_IntroToCSS.pdf">slide pdf </a></p>
 <p><strong>Layout strategies</strong><br>
