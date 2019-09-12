@@ -1,4 +1,6 @@
 <h1>WEEK 2 | Sept 10 </h1>
+
+
 <p><strong>Design inspiration: presentations</strong><br>
 Each students presents their design inspiration to the class. <br><br>
 <b>Metric / Grading: 10 points</b><br>
