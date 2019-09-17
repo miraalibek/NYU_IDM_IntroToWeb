@@ -1,7 +1,17 @@
 <h1>WEEK 3 | Sept 17 </h1>
-<p><strong>Layout strategies</strong><br>
-- Floats! - the most traditional method & cleafix hack:
-<a href="IntrotoWeb_W3d_Float.pdf">slide.pdf</a> & <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W3_Sept17/floats">html files</a> <br>
-- positioning: absolute, relative, fixed > <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W3_Sept17/positioning_plus">html files</a><br>
-- z-index, overflow >> same files as for positioning position</p>
-<p><strong>Images on the web:</strong> alt, scaling > <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W3_Sept17/image">html files</a></p>
+<p><b>Continuing with CSS</b><br>
+Selector reference: <a href=" https://www.w3schools.com/cssref/css_selectors.asp">from W3Schools</a><br><br>
+We are going to do our exercise of building out a module, that we didn't get a chance to do in the last class.<br><br>
+
+<p><b>W3 Validation for CSS</b><br>
+W3C validation package for atom should already take care of catching CSS mistakes, but just in case you can always go : <a href="https://jigsaw.w3.org/css-validator/#validate_by_upload">here</a></p>
+
+What are <b>block and inline elements?</b> and why is that important. So talking about {display: block;} & {display:inline} <br><br>
+
+<b>CSS Box Model</b>: a simple concept, but important to keep in mind, as we go into working with div elements.  <a href= "IntrotoWeb_W2_CSSBoxModel.pdf">slides here</a><br><br>
+
+We are also going to look at how to block out with div elements: basically sketching out a page.
+
+</p>
+<p><b>Any questions about homework? </b><br>
+You were supposed to sketch out a sitemap and a homepage wireframe. This was a practice exercise to see how you can start organizing your website. You can definitely change/iterate on this first sketch as you progress.</p>
