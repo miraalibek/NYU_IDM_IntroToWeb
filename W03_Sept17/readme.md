@@ -1,7 +1,7 @@
 <h1>WEEK 3 | Sept 17 </h1>
 <p><b>Continuing with CSS</b><br>
 Selector reference: <a href="https://www.w3schools.com/cssref/css_selectors.asp">from W3Schools</a><br><br>
-We are going to do our exercise of building out a module, that we didn't get a chance to do in the last class.<br><br>
+We are going to do our exercise of building out a module, that we didn't get a chance to do in the last class.</p>
 
 <p><b>W3 Validation for CSS</b><br>
 W3C validation package for atom should already take care of catching CSS mistakes, but just in case you can always go : <a href="https://jigsaw.w3.org/css-validator/#validate_by_upload">here</a></p>
