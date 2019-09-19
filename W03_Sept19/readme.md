@@ -10,8 +10,8 @@
 <p><b>Resources:</b><br>
 - <a href="https://www.w3schools.com/css/css_float.asp">W3Schools floats </a> <br>
 - <a href="https://www.w3schools.com/cssref/css3_pr_box-sizing.asp">Box-sizing </a> <br>
-- <a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_float_clear_overflow">Clearfix hack </a>
-- <a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_float_clear_overflow">Top navigation with floats</a> <br>
+- <a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_float_clear_overflow">Clearfix hack </a><br>
+- <a href="https://www.w3schools.com/howto/howto_js_topnav.asp">Top navigation with floats</a> <br>
 - <a href="https://www.w3schools.com/howto/howto_css_subnav.asp">Subnavigation menu</a> <br>
 - <a href="https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp">Dropdown menu</a> <br></p>
 
@@ -27,5 +27,7 @@ Go over the resource examples (class files provided in this section & how-to's f
 - <a href="https://www.w3schools.com/css/exercise.asp?filename=exercise_boxmodel1">Box Model Exercises (1 through 4)</a> <br>
 - <a href="https://www.w3schools.com/css/exercise.asp?filename=exercise_combinators1">CSS Combinators (1 through 4)</a> <br>
 - <a href="https://www.w3schools.com/css/exercise.asp?filename=exercise_positioning1">CSS Positioning (1 through 5)</a> <br>
-- <a href="https://www.w3schools.com/css/exercise.asp?filename=exercise_overflow1">Overflow (1 through 3)</a> <br><br>
+- <a href="https://www.w3schools.com/css/exercise.asp?filename=exercise_overflow1">Overflow (1 through 3)</a> <br>
+
+<br><br>
 Log this into your github: (paragraph: what is difficult/easy, what was an AHAAA! moment, could you use this for something in your project ) >> let's talk about github again</p>

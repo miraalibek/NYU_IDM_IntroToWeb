@@ -1,7 +1,7 @@
 /* Horizontal nav */
 .menu {
     font-size: 12px;
-   
+
 }
 ul {
     /* FLOAT! */
@@ -21,19 +21,16 @@ li a {
     display: block;
     color: #2f2c59;
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 20px ;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
     background-color: #f0efef;
-    
+
 }
 
 .active {
     background-color: #2f2c59;
     color:#00ffcc;
 }
-
-
-
