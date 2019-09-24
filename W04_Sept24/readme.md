@@ -15,3 +15,9 @@
 - Background images<br>
 - Gradients<br>
 </p>
+
+<p><b>If we have time: CODE EXERCISE</b><br>
+- Create a div over an image <br>
+- Create a div with a background image<br>
+- Create a div with a hover behavior: shows a header when rollover<br>
+</p>
