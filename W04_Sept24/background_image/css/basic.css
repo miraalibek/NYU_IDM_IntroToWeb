@@ -1,0 +1,147 @@
+/* must haves! we will talk about CSS box model and talk about this box-sizing  */
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+
+
+/* defining different modules */
+
+.big_containter{
+     width:96%;
+     margin:auto;
+
+}
+
+.logo{
+
+    width:33.3%;
+    padding:20px;
+
+    /* this is temporary: we are going to learn what "float" is soon! */
+    display: inline-block;
+
+
+}
+
+nav{
+    width:66%;
+    text-align: right;
+
+    /* this is temporary: we are going to learn what "float" is soon! */
+    display: inline-block;
+}
+
+ /* I AM ADDING BACKGROUND IMAGES INSIDE MODULES */
+.fullWidth{
+   background-image: url("../img/bg_1.jpg");
+   background-repeat: no-repeat;
+   min-height:400px;
+   width:100%;
+
+}
+.big_intro{
+     width: 33.1%;
+     margin:20px;
+    color:white;
+}
+
+
+.secondary_promo{
+   background-image: url("../img/bg_3.png");
+   background-repeat: no-repeat;
+   background-position: center center;
+   /*background-attachment: fixed; */
+   min-height:200px;
+   width:100%;
+}
+
+.another_promo{
+   background-image: url("../img/tile1.gif");
+   background-repeat: repeat-x;
+   min-height:200px;
+   width:100%;
+}
+
+.yet_another{
+   background-image: url("../img/bg_1.jpg"), url("../img/bg_3.png");
+   background-blend-mode:overlay;
+   min-height:200px;
+   width:100%;
+}
+
+
+.sec_intro{
+     width: 33.1%;
+     margin:20px;
+}
+
+.my_row{
+    width:100%;
+    max-width:1440px;
+    margin:auto;
+
+}
+.col_4 {
+    width: 33.1%;
+    max-width: 480px;
+    min-height: 150px;
+    /* this is temporary: we are going to learn what "float" is soon! */
+    display: inline-block;
+    padding:20px;
+    margin-bottom: 30px;
+}
+
+.col_2 {
+    width: 49.6%;
+    max-width: 720px;
+
+    /* this is temporary: we are going to learn what "float" is soon! */
+    display: inline-block;
+    padding:0px;
+    margin:0px;
+    margin:0px;
+    background-color: #f0f0f0;
+}
+
+/* images */
+
+
+.thumb{
+    width:100%;
+    max-width:450px;
+    margin:auto;
+    display:block;
+}
+
+.thumb:hover{
+    opacity: .5;
+}
+
+.thumb_2{
+    width:100%;
+    margin:auto;
+    display:block;
+}
+.thumb_2:hover{
+    opacity: .5;
+}
+
+
+footer{
+    background-color: #f0f0f0;
+}
+
+.copyright{
+    width:66%;
+    /* this is temporary: we are going to learn what "float" is soon! */
+    display: inline-block;
+    padding:20px;
+}
+
+.social{
+    text-align:right;
+    width:33%;
+    display: inline-block;
+}

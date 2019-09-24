@@ -1,0 +1,141 @@
+/* must haves! we will talk about CSS box model and talk about this box-sizing  */
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    margin:0px;
+}
+
+
+/* our big container */
+.big_containter{
+     width:96%;
+     margin:auto;
+
+}
+/* defining a row */
+.row{
+  margin:auto;
+  max-width: 1440px;
+  position:relative;
+}
+
+/* this is clearfix hack. i am saying to clear content after each row */
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* defining modules by column span */
+.col_4 {
+    width: 33.33%;
+    float:left;
+    position:relative;
+}
+
+.col_6 {
+    width: 50%;
+    float:left;
+    position:relative;
+    margin:auto;
+}
+
+.col_8{
+    width:66.67%;
+    float:left;
+    position:relative;
+}
+
+.col_12{
+    width: 100%;
+    float:left;
+    position:relative;
+}
+
+
+/* header */
+.logo{
+   margin-top:15px;
+   padding-left: 20px;
+}
+
+.menu{
+}
+
+ /* backgroundimage */
+.hero{
+   background-repeat: no-repeat;
+   min-height:500px;
+   background-color: aquamarine; /* For browsers that do not support gradients */
+  background-image: linear-gradient(aquamarine, yellow); /* Standard syntax (must be last) */
+
+  /* more gradient info: https://www.w3schools.com/css/css3_gradients.asp*/
+}
+
+.big_intro{
+     margin:auto;
+     color:white;
+     position: relative;
+     top:150px;
+     text-align: center;
+}
+
+
+/* images */
+
+
+.thumb{
+    width:100%;
+    max-width:480px;
+    margin:auto;
+    display:block;
+}
+
+.thumb:hover{
+    opacity: .5;
+}
+
+.thumb_2{
+    width:100%;
+    margin:auto;
+    display:block;
+
+
+}
+.thumb_2:hover{
+    opacity: .5;
+}
+
+
+.logo > img {
+    width:150px;
+    height:auto;
+}
+
+
+footer{
+    background-color: #f0f0f0;
+}
+
+.copyright{
+    width:66%;
+    /* this is temporary: we are going to learn what "float" is soon! */
+    display: inline-block;
+    padding:20px;
+}
+
+.social{
+    text-align:right;
+    width:33%;
+    display: inline-block;
+}
+
+.overheader{
+    position:absolute;
+    top:20px;
+    left:20px;
+    background-color:white;
+}
