@@ -14,13 +14,13 @@ ul {
 }
 
 li {
-    float: left;
+
 }
 
 li a {
     display: block;
     color: #2f2c59;
-    text-align: center;
+    text-align: left;
     padding: 14px 20px ;
     text-decoration: none;
 }
