@@ -1,12 +1,60 @@
 
+* {
+  font-family: 'Arial', sans-serif;
+  color: #333447;
+  line-height: 1.5;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+
+
+
+
 /* For your CSS Code*/
 
 .hero1{
   height:700px;
-  background: lightpink;
+  background-image: url(../img/Background_1.jpg);
+  background-position: center center;
 }
 
 .hero2{
   height:350px;
-  background: mistyrose;
+  background-image: url(../img/Background_2.jpg);
+  background-position: center center;
+}
+
+.menu{
+  float:right;
 }
