@@ -1,4 +1,4 @@
-<h1>WEEK 4 | Sept 24 </h1>
+<h1>WEEK 5 | Oct 1 </h1>
 <p><strong>Typography basics:</strong> what you need to know about type on the web<br>
 - basic concepts <br>
 - CSS type properties<br>
