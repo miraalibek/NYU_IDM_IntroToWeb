@@ -1,0 +1,62 @@
+/* here is the property cheat sheet */
+
+/*
+FOR FLEX CONTAINER
+
+flex-direction:
+column, column-reverse, row, row-reverse;
+
+flex-wrap:
+wrap, nowrap wrap-reverse; 
+
+flex-flow:
+(sets both flex-wrap and flex-direction)
+
+justify-content (aligns horizontally): 
+center, flex-start, flex-end, space-around;
+
+align-items (aligns flex times vertically) 
+center, flex-start, flex-end, stretch, baseline;
+
+align-content 
+(aligning flex lines, so this works with wrapping the content): space-between, space-around, stretch, center, flex-start, flex-end,
+
+FOR FLEX ITMES
+order (reorder the item):
+{order: 3;} 
+reorders the item to be 3rd in the list
+
+flex-grow 
+(the higher the number,>>grows faster):
+{flex-grow:8;}
+
+flex-shrink:
+{flex-shrink:0;} 
+
+flex-basis (sets initial width of an item): 
+{flex-basis:200px;}
+
+flex (shorthand for flex-grow, flex-shrink, flex-basis) 
+{flex: 0 0 200px;}
+
+align-self (overrides align-items property): 
+{align-self:center}
+
+*/
+
+.row_flex {
+  width:100%;
+  max-width: 1440px;
+    
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row-reverse;
+  justify-content:flex-start;
+  align-content: stretch;
+}
+
+.flex-4{
+   flex: 0 0 33.333333%; 
+   padding:50px 20px;
+}
+

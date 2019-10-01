@@ -7,11 +7,20 @@
 <p><strong> Google fonts</strong> <br>
 How to use google fonts > <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W05_Oct1/google_fonts">files</a></p>
 <p><strong> Webfonts</strong> <br>
-How to convert truetype font to webfonts and embed into your site. The sample folder also has a folder with some free fonts, you can use to practice. <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W05_Oct1/webfonts">files</a> & <a href="https://www.fontsquirrel.com/tools/webfont-generator">fontsquirrel</a></p>
+How to convert truetype font to webfonts and embed into your site. The sample folder also has a folder with some free fonts, you can use to practice. <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W05_Oct1/webfonts">files</a> & <a href="https://www.fontsquirrel.com/tools/webfont-generator">fontsquirrel</a><br>
+- <a href="https://css-tricks.com/snippets/css/using-font-face/">@font-face browser support</a><br>
+
+
+</p>
 <p><strong>Iconography & Buttons</strong><br>
 Using icons in your projects with outside libraries, like fontAwesome <br>
 - <a href="IntrotoWeb_W4b_IconographyButtons.pdf">slide doc</a><br>
-- <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W05_Oct1/iconography">files</a></p>
+- <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W05_Oct1/iconography">files</a><br>
+- <a href="https://www.w3schools.com/icons/fontawesome_icons_intro.asp">fontawesome 4</a> <br>
+- <a href="https://www.w3schools.com/icons/fontawesome5_intro.asp">fontawesome 5</a><BR>
+- <a href="https://material.io/resources/icons">GOOGLE ICONS</a></p>
+
+
 <p><strong>Activity or HOMEWORK (depending on time):</strong> find fonts, convert to webfont, build a type scale (an .html doc or codepen)</p>
 
 <p><b>MIDTERM</b><br>

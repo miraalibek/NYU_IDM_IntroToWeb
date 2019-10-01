@@ -65,5 +65,11 @@
 }
 
 .article-text{
-  padding: 1vw;
+  padding: 1.5vw;
+}
+
+.center{
+  text-align:center;
+  margin:auto;
+  padding:1.5vw;
 }
