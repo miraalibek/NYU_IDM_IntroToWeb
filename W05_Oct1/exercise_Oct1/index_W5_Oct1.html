@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+  <!--  Must have meta tags-->
+  <meta charset="utf-8">
+  <meta name="description" content="Example">
+  <title>Float Grid</title>
+
+  <!-- Really should have these -->
+  <meta name="keywords" content="html, css,floats, float left, float right, clearfix, simple grid">
+  <meta name="author" content="NYU Tandon, Intro to Web">
+
+   <!-- THIS IS A LINK TO THE EXTERNAL .CSS -->
+  <link rel="stylesheet" href="css/my_grid.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css"  type="text/css">
+  <link rel="stylesheet" href="css/type.css"  type="text/css">
+
+</head>
+
+
+
+<body>
+
+    <!-- container -->
+    <div class="container">
+
+      <!-- ROW 1-->
+      <header>
+          <div class="row">
+            <div class="col-2">
+                LOGO
+            </div>
+            <div class="col-10">
+              <div class="menu">
+                  <a href="">home</a> | <a href="">work</a> | <a href="">about</a> | <a href="">contact</a>
+              </div>
+
+            </div>
+          </div>
+      </header>
+
+      <!-- ROW 2-->
+      <div class="row">
+        <div class="col-12 hero1">
+          <div class="hero_card col-6">
+              <h1> Lorem ipsum dolores</h1>
+              <p>Sed mattis, dui non commodo fermentum, elit orci egestas neque, eu tincidunt massa augue sit amet tortor. </p>
+              <button class="my_button" onclick="window.open('http://google.com','_blank')'">+ more</button>
+              <!-- onclick="location.href='https://www.w3schools.com/css/css3_buttons.asp'"-->
+          </div>
+        </div>
+      </div>
+
+      <!-- ROW 3-->
+      <div class="row">
+        <div class="col-3 clickable">
+          <img src="img/thumb_1.jpg" alt="">
+          <div class="over">
+            <h6>headline</h6>
+            <a href="">[+ more]</a>
+          </div>
+        </div>
+        <div class="col-3 clickable">
+          <img src="img/thumb_2.jpg" alt="">
+          <div class="over">
+            <h6>headline</h6>
+            <a href="">[+ more]</a>
+          </div>
+        </div>
+        <div class="col-3 clickable">
+          <img src="img/thumb_3.jpg" alt="">
+          <div class="over">
+            <h6>headline</h6>
+            <a href="">[+ more]</a>
+          </div>
+        </div>
+        <div class="col-3 clickable">
+          <img src="img/thumb_4.jpg" alt="">
+          <div class="over">
+            <h6>headline</h6>
+            <a href="">[+ more]</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ROW 4 -->
+      <div class="row">
+       <div class="col-6">
+         <img src="img/article_img_720x450.jpg" alt="">
+       </div>
+       <div class="col-6 article-text">
+         article
+         <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacus turpis, congue sodales dictum at, varius vitae massa. Curabitur laoreet dictum nulla non egestas. Donec venenatis diam sed dui accumsan efficitur. Vivamus suscipit elit nisl, non mattis lectus egestas a. Sed eget laoreet felis. Vivamus ac dui velit. Cras auctor urna in mi lobortis pulvinar. Phasellus ut urna ac dolor consequat blandit. Donec at enim et lorem posuere consequat id sed felis. Pellentesque consectetur fringilla urna, vitae accumsan ante feugiat consequat. Donec tincidunt nulla vitae dui bibendum, id posuere libero cursus. Nam quis sodales sapien. Quisque rutrum odio eu sodales suscipit. Etiam aliquet ipsum vitae arcu hendrerit, at ornare nisl consequat. Pellentesque sit amet leo blandit, rhoncus ante a, venenatis dui.-->
+       </div>
+      </div>
+
+      <!-- ROW 5-->
+      <footer>
+        <div class="row">
+          social links: Facebook, Instagram, Twitter, LinkedIn
+        </div>
+      </footer>
+
+    </div>
+
+
+</body>
+</html>

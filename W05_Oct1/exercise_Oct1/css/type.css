@@ -1,0 +1,75 @@
+/* GOOGLE FONTS */
+
+
+h1, h2, h3,  {
+
+}
+
+h4, h5, h6{
+
+}
+/* TYPE SCALE */
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+
+h5 {
+  font-size: 1rem;
+  font-variant: small-caps;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+.legal{
+
+  font-size: 0.75rem;
+  font-weight: 200;
+  line-height: 1.2;
+  padding:20px;
+  color:#454545;
+}
+
+.teaser{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.copyright{
+    color:#454545;
+    padding:20px;
+}
+
+
+/* defining our links */
+
+a{
+
+    text-decoration: none;
+    color:darkblue;
+    font-variant: small-caps;
+    line-height: 1.8;
+
+}
