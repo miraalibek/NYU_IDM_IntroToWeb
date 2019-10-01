@@ -21,6 +21,35 @@
   <!-- THIS IS A LINK TO ICONS -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+<!-- fontawesome 5-->
+<script src="https://kit.fontawesome.com/6d58a5afcd.js" crossorigin="anonymous"></script>
+<style>
+  .my_social{
+    border: 3px solid #32e3cf;
+    border-radius:20px;
+    padding:10px 15px;
+    font-size:1.5rem;
+    color:#3b3b3b;
+  }
+
+  .my_social:hover{
+    background-color: #32e3cf;
+
+  }
+
+  .img_icon{
+    width:50%;
+    background-color:#F5D6E9;
+
+
+  }
+
+  .img_icon i{
+    font-size: 2rem;
+    text-align: center;
+    
+  }
+</style>
 </head>
 
 
@@ -104,10 +133,12 @@
       <div class="row">
 
        <div class="col-4 center">
+          <div class="img_icon">
+                <i class="material-icons" >
+       card_giftcard
+       </i>
+          </div>
 
-           <i class="material-icons" style="font-size:2rem;color:#3b3b3b;padding:1rem;">
-  card_giftcard
-  </i>
 
 
        </div>
@@ -125,7 +156,7 @@
       <!-- footer-->
       <footer>
         <div class="row">
-          social links: Facebook, Instagram, Twitter, LinkedIn
+          <button class="my_social"><i class="fab fa-instagram" ></i></button>
         </div>
       </footer>
 
