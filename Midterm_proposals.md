@@ -7,17 +7,17 @@ There will be in class presentations (OCT 22 and 24th) that will be part of the 
 - Write at least a paragraph explaining the purpose/goals of your site<br>
 - Outline content served on your website<br><br>
 
-<h4>DESIGN</h4>
-<em>Define your design system</em> <br>
-Submit either:<br>
-- Basic styleguide (example here) as an image or an .html/.css codepen  & a moodboard <br><br>
-
-or <br><br>
-- Page layouts for a homepage and secondary page. Must be done at the correct dimensions (take into consideration viewport resolution). These should show how you are setting up your design system (what is your type scales? how do your navigational elements work > show states of buttons/links)<br><br>
-
 <h4>UX</h4>
 <em>Define website structure</em> <br>
 - Sitemap <br>
 - Homepage wireframe<br>
-- Secondary pages (all pages in global navigation)<br>
-- One tertiary page (product or project page)<br>
+- Secondary pages (expect around 3 - for example: About, Work, Contact)<br>
+- Product or project page (page or modal overlay/lightbox?)<br>
+
+<h4>DESIGN</h4>
+<em>Define your design system</em> <br>
+Submit either:<br>
+Minimum: Basic styleguide (examples in design_samples folder) + Moodboard <br><br>
+
+or <br><br>
+Extra: Page layouts for a homepage and secondary page. Must be done at the correct dimensions (take into consideration viewport resolution). <em>These should show how you are setting up your design system (what is your type scales? how do your navigational elements work > show states of buttons/links)</em><br><br>
