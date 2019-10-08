@@ -1,0 +1,99 @@
+/*   FONT: here is where i point to the google font   */
+@import url('https://fonts.googleapis.com/css?family=Pattaya');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+
+/*   FONT: this is where i start building styles with the fonts   */
+.pattaya{
+    font-family: 'Pattaya', sans-serif;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h2{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 36px;
+}
+
+a {
+    text-decoration: none;
+    background-color:aquamarine;
+    
+
+}
+
+nav a{
+    background-color: transparent;
+    color:white;
+    
+}
+
+nav a:hover{
+    color:aquamarine;
+   
+}
+
+
+
+
+
+/*   JUST SOME MARGINS AND PADDINGS AND FORMATING FOR THE OVERALL PAGE   */
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    background: #eee;
+}
+
+.myBigContainer{
+
+    width:72%;
+    margin:auto;
+    padding: 20px;
+    overflow: hidden;
+    
+}
+
+
+
+/*   JUST SOME COLORS   */
+
+.bgWhite{
+     background: #fff;
+}
+
+.bgBlack{
+     background: #000;
+     color:white;
+}
+
+.bgGray{
+     background: #e2e2e2;
+}
+
+
+.card_over{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0,0,0,.5);
+    top: 20px;
+    left:20px;
+    z-index: 2;
+}
+
+
+

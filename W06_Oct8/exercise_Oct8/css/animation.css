@@ -1,0 +1,23 @@
+
+
+
+
+
+/*   ANIMATION PROPERTIES
+@keyframes
+
+@keyframes animation name {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation-fill-mode
+animation
+*/

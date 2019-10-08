@@ -1,0 +1,38 @@
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); 
+                            /* 1fr is one "fractional unit", which is a way of saying "the remaining space in the element".
+                                minmax(the smallest it can be, the largest)        */
+    grid-gap: 10px;
+    grid-auto-rows: minmax(180px, auto); 
+    grid-auto-flow: dense;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #929796;
+    background-color: #f4f5f7;
+    border-radius: 0px;
+    
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.05);  */
+    &:nth-child(odd) { 
+        background-color: #fff;
+    }
+    /* nth-child selector: https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_nth-child */
+    
+}
+
+.span-2 {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
+
+.span-3 {
+    grid-column-end: span 3;
+    grid-row-end: span 4;
+}

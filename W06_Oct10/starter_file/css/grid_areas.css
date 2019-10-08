@@ -1,0 +1,78 @@
+.myContainer {
+  display: grid;
+  width:96%;
+  margin:auto;
+  grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%; /* this makes sure your columns are not stretching around*/
+  grid-template-rows: auto 400px auto auto auto; /* you should set your row heights here rather than inside each item*/
+  grid-template-areas: 
+    ' header header header header header header ' 
+    ' hero hero hero hero hero hero '
+    ' module1 module1 module2 module2 module3 module3 ' 
+    ' article_img article_img article_img article_txt article_txt article_txt '
+    ' footer footer footer footer footer footer ';
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+  /* grid-row-gap: 10px; - if you want gap between the rows */
+   align-items:stretch;
+   overflow: visible;
+} 
+
+.header{
+    grid-area: header;
+    background-color: #f1f1f1;
+    align-self:center;
+}
+
+
+
+.hero{
+    grid-area: hero;
+    background-image:url(../img/myHero.png);
+    background-repeat: no-repeat;
+    background-position:center top; /* also can be right, left, right top, etc */
+   
+    
+}
+
+.module1, .module2, .module3{
+    padding:25px;
+}
+
+.module1{
+    grid-area: module1;
+    border-left: 1px solid #d1d1d1;
+}
+
+.module2{
+    grid-area: module2;
+    border-left: 1px solid #d1d1d1;
+}
+
+.module3{
+    grid-area: module3;
+    border-left: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+}
+
+.article_img{
+    grid-area: article_img;  
+    align-self:stretch;
+    overflow:hidden;
+    
+}
+
+.article_txt{
+    grid-area: article_txt; 
+    background-color:#f6f6f6;
+    padding:25px;
+    border-right: 1px solid #d1d1d1;
+    overflow:auto;
+    
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #222;
+    color: white;
+    padding:25px;
+    
+}

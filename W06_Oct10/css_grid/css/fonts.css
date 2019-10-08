@@ -1,0 +1,158 @@
+/* GOOGLE FONTS */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+
+/* WEB FONTS */
+@font-face {
+    font-family: 'simplificasimplifica';
+    src: url('../fonts/simplifica_typeface.woff2') format('woff2'),
+         url('../fonts/simplifica_typeface.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ROOT FONT STYLES */
+
+* {
+  font-family: 'Lato', Helvetica, sans-serif;
+  color: #333447;
+  line-height: 1.5;
+  box-sizing: border-box;
+  
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'simplificasimplifica';
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-heavy {
+  font-weight: 700;
+}
+
+/* POSITIONING */
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.body{
+  font-size: 1rem;
+
+    
+}
+
+.smaller{
+    font-size: .75rem;
+    color:white;
+}
+
+.subhead{
+    font-size: 1.25rem;
+}
+
+/* BUTTONS AND ACTIONABLE */
+
+.button1 {
+  border: 2px solid #00ffcc;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 0px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button1:hover{
+    box-shadow: none;
+    transition: .4s;
+    background-color: #00ffcc;
+    
+}
+
+a.sublink{
+    font-size:.75rem;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+a.sublink:hover{
+    color: #00ffcc;
+}
+
+.icon_btn {
+    border: 2px solid #22ffa5;
+    background-color: rgba(34, 255, 165,0); 
+    
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right:10px;
+}
+
+.icon_btn:hover{
+    
+    background-color: rgb(34, 255, 165); 
+}
+

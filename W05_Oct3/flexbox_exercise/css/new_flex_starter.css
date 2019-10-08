@@ -7,54 +7,70 @@ flex-direction:
 column, column-reverse, row, row-reverse;
 
 flex-wrap:
-wrap, nowrap wrap-reverse; 
+wrap, nowrap wrap-reverse;
 
 flex-flow:
 (sets both flex-wrap and flex-direction)
 
-justify-content (aligns horizontally): 
+justify-content (aligns horizontally):
 center, flex-start, flex-end, space-around;
 
-align-items (aligns flex times vertically) 
+align-items (aligns flex times vertically)
 center, flex-start, flex-end, stretch, baseline;
 
-align-content 
+align-content
 (aligning flex lines, so this works with wrapping the content): space-between, space-around, stretch, center, flex-start, flex-end,
 
 FOR FLEX ITMES
 order (reorder the item):
-{order: 3;} 
+{order: 3;}
 reorders the item to be 3rd in the list
 
-flex-grow 
+flex-grow
 (the higher the number,>>grows faster):
 {flex-grow:8;}
 
 flex-shrink:
-{flex-shrink:0;} 
+{flex-shrink:0;}
 
-flex-basis (sets initial width of an item): 
+flex-basis (sets initial width of an item):
 {flex-basis:200px;}
 
-flex (shorthand for flex-grow, flex-shrink, flex-basis) 
+flex (shorthand for flex-grow, flex-shrink, flex-basis)
 {flex: 0 0 200px;}
 
-align-self (overrides align-items property): 
+align-self (overrides align-items property):
 {align-self:center}
 
 */
 
+.flex_row{
+  display:flex;
+  flex-flow: nowrap row;
+  justify-content: space-around;
+  align-items: stretch;
+}
 
+.flex-3{
+  flex: 0 0 25%;
+  margin: 1%;
+  box-shadow: 2px 2px 10px rgba(0,0,0,.2);
+  border-radius: 10px;
+}
 
+.flex_row img{
+  width:100%;
+}
 
+.column{
+  display:flex;
+  flex-direction: column;
+  flex: 0 0 20%;
+  box-shadow: 2px 2px 10px rgba(0,0,0,.2);
+  justify-content: space-around;
+}
 
-
-
-
-
-
-
-
-
-
-
+.column > img{
+  width:100%;
+  vertical-align: middle;
+}
