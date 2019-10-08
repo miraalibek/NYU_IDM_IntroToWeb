@@ -1,5 +1,13 @@
 
+/* Transitions
 
+transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function
+
+*/
 
 
 
@@ -15,9 +23,10 @@
 animation-name
 animation-duration
 animation-delay
-animation-iteration-count
-animation-direction
-animation-timing-function
-animation-fill-mode
-animation
+animation-iteration-count  how many times to play, >> animation-iteration-count: 2;
+animation-direction  >> normal|reverse|alternate|alternate-reverse|initial|inherit;
+animation-timing-function  linear|ease|ease-in|ease-out|ease-in-out|step-start|step-end|steps(int,start|end)|cubic-bezier(n,n,n,n)|initial|inherit;
+
+animation-fill-mode  none|forwards|backwards|both|initial|inherit;
+animation  >> shorthand
 */
