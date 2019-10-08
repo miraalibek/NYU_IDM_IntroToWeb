@@ -17,11 +17,11 @@
 
     border-radius: 25px;
     /*
-    border-radius: 15px 50px; 
+    border-radius: 15px 50px;
     */
     border: 2px solid #73AD21;
-    
-    
+
+
     background:coral;
 }
 .topper{
@@ -30,10 +30,10 @@
     margin-left: auto;
     margin-right: auto;
     width:200px;
-    
-    
-    
-    
+
+
+
+
 }
 .topper2{
     margin-top:30px;
@@ -41,15 +41,31 @@
     margin-left: auto;
     margin-right: auto;
     width:600px;
-    
-    
+
+
     border: 10px solid transparent;
     padding: 15px;
     border-image: url(../img/border.svg) 20 round;
-    
+
 }
 
 picture{
     margin:auto;
     width:50%;
+}
+
+
+.filtered{
+  filter: grayscale(100%);
+  /*
+    blur(5px)
+    brightness(200%)
+    contrast(200%)
+    hue-rotate(90deg)
+    drop-shadow(8px 8px 10px gray)
+    sepia(100%)
+    saturate(8)
+    invert(100%)
+    contrast(200%) brightness(150%)
+  */
 }
