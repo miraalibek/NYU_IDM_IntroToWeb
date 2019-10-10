@@ -1,0 +1,50 @@
+body{
+  margin:0;
+}
+
+*{
+  box-sizing: border-box;
+
+}
+
+.bigBox{
+  width:84%;
+  margin:auto;
+}
+
+.logo{
+  width:8.33%;
+  margin:auto;
+  padding-top:30px;
+}
+
+.big_image{
+  width:100%;
+  margin-top:10px;
+  background:gray;
+}
+
+.big_image img{
+  width:100%;
+  max-width: 1440px;
+  display:block;
+  margin:auto;
+  float:left;
+}
+
+.menu{
+  margin:auto;
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.menu > div{
+
+  width:100px;
+  padding:20px 0px;
+  text-align: center;
+}

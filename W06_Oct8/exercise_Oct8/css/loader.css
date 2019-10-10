@@ -1,7 +1,8 @@
 .loader {
-  border: 2px solid #f3f3f3;
+  border: 2px solid lightgray;
   border-radius: 50%;
-  border-top: 2px solid darkgray;
+  border-top: 2px solid red;
+  border-bottom: 2px solid green;
   width: 50px;
   height: 50px;
   animation: spin 2s linear infinite;

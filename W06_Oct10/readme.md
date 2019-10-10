@@ -1,30 +1,24 @@
 <h1>WEEK 6 | Oct 10 </h1>
-<p><strong>CSS Grid Module:</strong> <br>
-- reasons for emergence (best for large page layouts rather than modules), basic syntax <br>
-- <a href="IntrotoWeb_W6_CSSGrid.pdf">Slide doc</a><br>
-- <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W6_Oct10/css_grid">Some html/css examples</a></p>
+<p><strong>REVIEW CLASS</strong> <br><br>
+<b>Checkin-in:</b><br>
+- How to learn code in this class: example files & try and try again.<br>
+- Homework: lateness/github links...why<br>
+- Mid-course check-in emails >> when I have to email advisors<br>
+- Midterms: <b>LATE MIDTERMS NOT ACCEPTED</b> (Why: your midterms grades due to NYU on Nov 4th)
+<br><br>
+<p><b>Course grades</b><br>
+- Assignments: 25% <br>
+- Midterm project: 20% <br>
+- Final project: 20%;<br>
+- Attendance/Participation: 20%;<br>
 
-<p><strong>Building exercise</strong><br>
-Basic page layout with CSS Grid module<br>
-<a href="">Let's use these starter files to build some pages out with CSS modules</a></p>
+- Github upkeep & learning log presentations: 15%</p>
+<b>Exercise 1:</b> Simple non-grid layout (set up margins/padding), linking to .css (should know by now!), simple global nav, centered nav <br>
+<em>link to css, margins/box-sizing, padding, centering text, centering a div, try flex</em><br><br>
 
-<p><strong>Fun example</strong><br>
-Masonry grid with CSS module<br>
-<a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W6_Oct10/masonry_grid">check out the files</a></p>
-
-<p><strong>HOMEWORK:</strong> (Due on Oct 22)<br>
-Start thinking about midterm. Final project proposals due on Oct 22nd<br><br>
-<div style="background-color:#75ffd8;padding:20px;">
-What are the expectations for the final project? <br>
-<em>Note: These might change as we go through the course based on student progress</em>
-</p>
-<ul>
-<li>One or more .html pages with external .css and .js files</li>
-<li>Well-organized site/webpages (good UX)</li>
-<li>Fully interactive (.js and .css) with functioning links/buttons</li>
-<li>Includes thoughtful media (images, video and/or animations)</li>
-<li>Clean code: good syntax (validate!)</li>
-<li>Coherent UI/visual design: consistent color schemes and fonts</li>
-<li>Non-system fonts used</li>
-</ul>
-</div>
+<b>Exercise 2: </b> Menu with fixed position (sticky version) and a dropdown on hover<br>
+<em>positioning absolute, fixed, z-index, overflow, hovers </em><br><br>
+<b>Exercise 3: </b><br>
+Hamburger nav / off-canvas menu, javascript for onClick.<br>
+<em>icons, position absolute, hover</em><br><br>
+<em> </em></p>

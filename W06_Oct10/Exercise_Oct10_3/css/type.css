@@ -1,0 +1,65 @@
+/* GOOGLE FONTS */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+
+
+
+h1, h2, h3  {
+    font-family: 'Playfair Display', serif;
+}
+
+h4, h5, h6{
+   font-family: 'Lato', sans-serif;
+}
+/* TYPE SCALE */
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+
+h5 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+
+
+/* defining our links */
+
+a{
+    font-size:.85rem;
+    font-family: 'Lato', Helvetica, sans-serif;
+    text-decoration: none;
+    color:#000;
+    text-transform: uppercase;
+    line-height: 1.8;
+
+}

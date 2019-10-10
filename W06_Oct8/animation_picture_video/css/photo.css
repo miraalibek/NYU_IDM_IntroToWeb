@@ -56,7 +56,7 @@ picture{
 
 
 .filtered{
-  filter: grayscale(100%);
+  filter:  contrast(200%) brightness(150%);
   /*
     blur(5px)
     brightness(200%)

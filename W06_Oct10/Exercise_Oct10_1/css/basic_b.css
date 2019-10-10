@@ -1,0 +1,55 @@
+body{
+  margin:0;
+}
+
+*{
+  box-sizing: border-box;
+
+}
+
+.bigBox{
+  width:84%;
+  margin:auto;
+}
+
+.logo{
+  width:8.33%;
+  margin:auto;
+  padding-top:30px;
+}
+
+.big_image{
+  width:100%;
+  margin-top:10px;
+  background:gray;
+}
+
+.big_image img{
+  width:100%;
+  max-width: 1440px;
+  display:block;
+  margin:auto;
+  float:left;
+}
+
+.menu{
+  margin:auto;
+  width:100%;
+  background:#f0f0f0;
+
+}
+.menu_container{
+  width:300px;
+  margin:auto;
+}
+.menu_container > div{
+  float:left;
+  width:100px;
+  padding:20px 0px;
+  text-align: center;
+}
+.menu::after{
+  content: "";
+  clear:both;
+  display:table;
+}

@@ -13,7 +13,7 @@
 
 .anim1:hover{
      background-color: aquamarine;
-     transform:translate(1000px, 100px);
+     transform:translate(500px,50px);
      transform:scale(1.1);
 }
 
@@ -139,7 +139,7 @@
     background-color: white;
     box-shadow: 2px 2px 20px lightGray;
 
-    transition: height 2s, background-color 4s;
+    transition: height 2s, background-color 0.1s;
 
 }
 
@@ -154,15 +154,15 @@
 .anim6{
     width:90%;
     height: 200px;
-    background:#fff;
-    opacity: .5;
+    background:aqua;
+    opacity: 1;
     margin-left:auto;
     margin-right:auto;
     text-align: center;
 
     animation-name: example;
     animation-duration: 4s;
-    /*animation-fill-mode: forwards;*/
+    animation-fill-mode: forwards;
 
 
 }

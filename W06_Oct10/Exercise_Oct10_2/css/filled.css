@@ -1,0 +1,64 @@
+body{
+  margin:0;
+}
+
+*{
+  box-sizing: border-box;
+
+}
+
+.hero{
+  width:100%;
+  background-image: url(../img/Background_1.jpg);
+  min-height:600px;
+  background-position: center center;
+  /*
+  background-size: contain;
+  https://www.w3schools.com/cssref/playit.asp?filename=playcss_background-size&preval=50%25
+  */
+}
+
+.global_nav{
+  width:100%;
+  position:absolute;
+  height:80px;
+}
+
+.logo{
+ float:left;
+ width:25%;
+ margin:0;
+ padding: 0 15px;
+ position:relative;
+ top:50%;
+ transform: translateY(-50%);
+}
+
+.logo img{
+  width:60px;
+}
+
+.menu{
+  float:left;
+  width:75%;
+  position:relative;
+  top:50%;
+  transform: translateY(-50%);
+
+}
+
+ul{
+  float:right;
+  list-style: none;
+  margin:0;
+
+}
+
+li{
+  float:left;
+  padding: 0 15px;
+}
+
+li a:hover{
+  text-decoration: underline;
+}

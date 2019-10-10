@@ -1,0 +1,48 @@
+body{
+  margin:0;
+}
+
+*{
+  box-sizing: border-box;
+
+}
+
+.bigBox{
+  width:84%;
+  margin:auto;
+}
+
+.logo{
+  width:8.33%;
+  margin:auto;
+  padding-top:30px;
+}
+
+.menu a{
+  margin:0 20px;
+}
+
+.menu a:hover{
+  color: #FC0000;
+}
+
+.menu{
+  text-align: center;
+  width:100%;
+  margin:auto;
+  padding-top:10px;
+}
+
+.big_image{
+  
+  width:100%;
+  margin-top:10px;
+  background:gray;
+}
+
+.big_image img{
+  width:100%;
+  max-width: 1440px;
+  display:block;
+  margin:auto;
+}

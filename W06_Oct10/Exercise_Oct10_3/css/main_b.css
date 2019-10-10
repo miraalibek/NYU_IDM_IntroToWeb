@@ -1,0 +1,70 @@
+body{
+  margin:0;
+}
+
+*{
+  box-sizing: border-box;
+
+}
+
+.hero{
+  background-image: url(../img/Background_1.jpg);
+  height:100vh;
+  /*
+  background-size: contain;
+  https://www.w3schools.com/cssref/playit.asp?filename=playcss_background-size&preval=50%25
+  */
+}
+
+.row{
+  width:84%;
+  margin:auto;
+}
+
+.global_nav{
+  width:86%;
+  position:absolute;
+  top:10px;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.ham{
+  position:absolute;
+  top:0;
+  right:0;
+  padding:30px 20px;
+
+}
+
+.ham button{
+  font-size: 1.15rem;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  border: 2px solid #000;
+  background: rgba(0, 0, 0, 0);
+}
+
+.ham button:hover{
+  color:pink;
+  transition:.2s;
+}
+
+.expanded_menu{
+  position:absolute;
+  height:100vh;
+  width:100%;
+  background:#fff;
+
+}
+
+.expanded_menu a{
+  font-size: 3rem;
+  font-weight:bold;
+  transition: .5s;
+}
+
+.expanded_menu a:hover{
+  color: pink;
+}
