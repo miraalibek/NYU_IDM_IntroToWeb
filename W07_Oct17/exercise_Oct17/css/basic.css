@@ -63,10 +63,10 @@ body{
 
 
 .thumb{
-    width:100%; 
-    max-width:480px; 
+    width:100%;
+    max-width:480px;
     margin:auto;
-    display:block; 
+    display:block;
 }
 
 .thumb:hover{
@@ -74,11 +74,11 @@ body{
 }
 
 .thumb_2{
-    width:100%; 
+    width:100%;
     margin:auto;
-    display:block; 
-    
-    
+    display:block;
+
+
 }
 .thumb_2:hover{
     opacity: .5;
@@ -102,7 +102,7 @@ body{
 }
 
 .pad-top{
-   padding-top: 20px; 
+   padding-top: 20px;
 }
 
 .pad-all{
@@ -121,11 +121,11 @@ body{
 
 .grayBlue{
     background-color: #2f2c59;
-    color:white; 
+    color:white;
 }
 
 .rose{
-    background-color: #fae8eb; 
+    background-color: #fae8eb;
 }
 
 .lightGray {
@@ -134,7 +134,7 @@ body{
 
 .darkGray {
     background-color: #2a2930;
-    color:white;   
+    color:white;
 }
 
 .brightTeal{

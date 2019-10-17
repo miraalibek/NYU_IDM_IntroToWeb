@@ -17,7 +17,7 @@ There will be in class presentations (OCT 22 and 24th) that will be part of the 
 <h4>DESIGN</h4>
 <em>Define your design system</em> <br>
 Submit either:<br>
-Minimum: Basic styleguide (examples in design_samples folder) + Moodboard <br><br>
+Minimum: Basic styleguide (examples in <a href="W05_Oct3/_design_samples">design_samples folder</a>) + Moodboard <br><br>
 
 or <br><br>
 Extra: Page layouts for a homepage and secondary page. Must be done at the correct dimensions (take into consideration viewport resolution). <em>These should show how you are setting up your design system (what is your type scales? how do your navigational elements work > show states of buttons/links)</em><br><br>

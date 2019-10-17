@@ -27,22 +27,22 @@
 
 .col-1 {
     width: 8.33%;
-    
+
   }
 
   .col-2 {
     width: 16.67%;
-    
+
   }
 
   .col-3 {
     width: 25%;
-       
+
   }
 
   .col-4 {
     width: 33.33%;
-    
+
   }
 
   .col-5 {
@@ -52,7 +52,7 @@
   .col-6 {
     width: 50%;
   }
-  
+
 
   .col-7 {
     width: 58.33%;
@@ -88,33 +88,102 @@
 	clear: both;
 }
 
+.ham button{
+  border:0;
+  background:rgba(0, 0, 0, 0);
+  font-size: 1.5rem;
+}
+
+.ham{
+  float:right;
+  padding:15px 20px;
+  display:none;
+}
+
+
 
 /* start responsive code here*/
 
-@media only screen and (max-width: 1024px) { 
+@media only screen and (max-width: 1024px) {
 
 
 }
 
-@media only screen and (max-width: 786px) { 
+@media only screen and (max-width: 786px) {
+  .container {
+    width: 100%;
+  }
 
+  .col-4 {
+    width: 100%;
+    padding-bottom:50px;
+    text-align:center;
+  }
+
+  .bttn {
+    width:86%;
+  }
+
+  .center_text{
+      text-align:center;
+      padding: 50px 20px;
+  }
+
+  .big_intro{
+       width:100%;
+       position:relative;
+       left:0;
+       text-align:center;
+       padding:20px;
+  }
 
 }
 
-@media only screen and (max-width: 530px) { 
-    
+@media only screen and (max-width: 530px) {
 
-    
+  .container {
+    width: 100%;
+  }
+
+  .col-4 {
+    width: 100%;
+    padding-bottom:50px;
+    text-align:center;
+  }
+
+  .bttn {
+    width:86%;
+  }
+
+  .center_text{
+      text-align:center;
+      padding: 50px 20px;
+  }
+
+  .big_intro{
+       width:100%;
+       position:relative;
+       left:0;
+       text-align:center;
+       padding:20px;
+  }
+
+  .menu ul{
+    display:none;
+
+  }
+
+  .ham{
+    display:block;
+  }
+
+  .col-2{
+    width:50%;
+  }
+
+  .col-10{
+    width:50%;
+  }
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-

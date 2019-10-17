@@ -30,7 +30,16 @@
 <body>
 
    <div class="container">
-       <header class="teal">
+     <header class="teal">
+       <div id="expand_menu" style="display:none;position:absolute;top:0;left:0;width:100%; background:white;height:100vh;z-index:2;">
+            <a href="">home</a><br >
+            <a href="">about</a><br>
+            <a href="">contact</a>
+            <div class="close" style="position:absolute; top:0;right:0;">
+              <button onclick="closePop();"><i class="far fa-window-close"></i></button>
+            </div>
+       </div>
+
         <div class="row">
             <div class="col-2 logo">
                <img src="img/logo.svg" style="width:100%;" alt="">
@@ -45,6 +54,9 @@
                         <li><a href="resources.html">RESOURCES</a></li>
                         <li><a href="contact.html">CONTACT</a></li>
                     </ul>
+                    <div class="ham">
+                        <button onclick="menuPop();"><i class="fas fa-bars" ></i></button>
+                    </div>
                 </nav>
             </div>
 
@@ -110,12 +122,26 @@
 
 
 
-       
+
 
 
 
     </div>
+    <script>
 
+      function menuPop(){
+
+        document.getElementById("expand_menu").style.display="block";
+
+
+      }
+
+      function closePop(){
+        document.getElementById("expand_menu").style.display="none";
+
+      }
+
+    </script>
 
 
 </body>
