@@ -1,0 +1,163 @@
+/* GOOGLE FONTS */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+
+/* WEB FONTS */
+@font-face {
+    font-family: 'simplificasimplifica';
+    src: url('../fonts/simplifica_typeface.woff2') format('woff2'),
+         url('../fonts/simplifica_typeface.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.simplifica{
+  font-family: 'simplificasimplifica';
+
+}
+
+
+h1, h2, h3, h4, h5, h6{
+   font-family: 'simplificasimplifica';
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-weight:bold;
+}
+/* TYPE SCALE */
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.775rem;
+}
+
+h4 {
+  font-size: 1.325rem;
+}
+
+
+h5 {
+  font-size: 1.125rem;
+  font-variant: small-caps;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+.legal{
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 200;
+  line-height: 1.2;
+  padding: 0px 20px;
+  color:#777777;
+}
+
+.teaser{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.copyright{
+    font-family: 'Lato', sans-serif;
+    color:#e2e2e2;
+    padding: 0px 20px;
+}
+
+
+/* defining our links */
+
+a{
+    font-family: 'Lato', Helvetica, sans-serif;
+    text-decoration: none;
+    color:#2f2c59;
+    font-variant: small-caps;
+    line-height: 1.8;
+
+}
+
+nav a{
+    padding:5px 15px;
+    color: #2a2930;
+}
+
+
+a:hover{
+    text-decoration: underline;
+    color:#00ffcc;
+
+}
+nav a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+.social {
+    padding: 20px 15px;
+}
+
+.center_text{
+    text-align:center;
+    padding: 50px 25%;
+}
+
+/* ICONS */
+.icon {
+    border: 2px solid #22ffa5;
+    background-color: rgba(0, 255, 204,0);
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    margin-right:10px;
+
+}
+
+.icon:hover{
+    background-color: rgb(0, 255, 204);
+}
+
+.legend{
+    width:25px;
+    height:auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+/* BUTTONS */
+.bttn {
+  border: 2px solid #22ffa5;
+  background-color: rgba(0, 255, 204,0);
+  padding:8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 10px 10px 0px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.bttn:hover{
+
+    transition: .4s;
+    background-color: rgb(0, 255, 204);
+
+}

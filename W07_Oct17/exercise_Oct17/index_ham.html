@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+    <!--  Must have meta tags-->
+    <meta charset="utf-8">
+    <meta name="description" content="Example">
+    <title>Icons and Buttons</title>
+    <meta name="keywords" content="html, css,typography, web fonts, embedded fonts, icons">
+    <meta name="author" content="NYU Tandon, Intro to Web">
+
+    <!-- YOU NEED THIS FOR YOUR @MEDIA TO WORK CORRECTLY -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- THIS IS A LINK TO THE EXTERNAL .CSS -->
+    <link rel="stylesheet" type="text/css" href="css/basic.css">
+    <link rel="stylesheet" type="text/css" href="css/type.css">
+    <link rel="stylesheet" type="text/css" href="css/global_nav.css">
+    <link rel="stylesheet" type="text/css" href="css/my_grid_ham.css">
+
+    <!-- fontawesome 5-->
+    <script src="https://kit.fontawesome.com/6d58a5afcd.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+   <div class="container">
+       <header class="teal">
+        <div class="row">
+            <div class="col-2 logo">
+               <img src="img/logo.svg" style="width:100%;" alt="">
+            </div>
+
+            <div class="col-10">
+                 <nav class="menu" >
+
+                    <ul id="menu">
+                        <li><a class="active" href="index.thml">HOME</a></li>
+                        <li><a href="outline.html">CLASS OUTLINE</a></li>
+                        <li><a href="reading.html">READING &amp; ASSIGNMENT </a></li>
+                        <li><a href="resources.html">RESOURCES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    <div class="ham" id="ham">
+                      <button ><i class="fas fa-bars" ></i></button>
+                    </div>
+                </nav>
+            </div>
+
+          </div>
+       </header>
+
+       <!--   THIS IS OUR LARGE HERO IMAGE -->
+        <div class="row">
+            <div class="col-12 hero">
+                 <div class="col-3 big_intro">
+                        <h1>Icons &amp; Buttons</h1>
+                        <p class="intro_sub">You can use your own font files or can link to outside libraries like fontawesome or google icons.</p>
+                        <button class="bttn" onclick="window.open('https://www.w3schools.com/css/css_icons.asp','_blank')">+ more</button>
+                        <a href="https://material.io/resources/icons/?style=baseline" target="_blank">secondary link</a>
+                 </div>
+           </div>
+        </div>
+
+       <div class="row">
+           <div class="col-12 center_text">
+               <h3>Buttons</h3>
+                <p>You must use javascript with buttons. You can use onClick event </p>
+               <button class="bttn" onclick="location.href='https://www.w3schools.com/css/css3_buttons.asp'">+ more</button>
+           </div>
+       </div>
+
+        <div class="row pad-bottom">
+
+            <!--   4_column modules, means they span 4 column of a grid -->
+            <div class="col-4">
+                <a href="#"  target="_blank">
+                    <img src="img/thumb1.jpg" class="thumb" alt="">
+                </a>
+                <div class="excerpt">
+                    <h4 class="overheader">etiam iaculis</h4>
+                    <p>Urna at fringilla ullamcorper, sapien risus accumsan arcu, vitae pretium odio risus quis lectus. </p>
+                    <button class="bttn ">+ more</button>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <a href="#"  target="_blank">
+                    <img src="img/thumb2.jpg" class="thumb" alt="">
+                </a>
+                <div class="excerpt">
+                    <h4 class="overheader">vivamus dapibus</h4>
+                    <p>Suspendisse posuere sit amet nibh eu aliquam. Nunc condimentum laoreet erat vitae maximus. Vivamus porttitor.</p>
+                    <button class="bttn ">+ more</button>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <a href="#" target="_blank">
+                    <img src="img/thumb3.jpg" class="thumb" alt="">
+                </a>
+                <div class="excerpt">
+                    <h4 class="overheader">curabitur</h4>
+                    <p>Duis vel elit consequat, iaculis metus vitae, mollis sem. Sed vel scelerisque augue. Morbi molestie velit erat.</p>
+                    <button class="bttn ">+ more</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+    <script>
+
+      function menuPop() {
+        document.getElementById("menu").style.display = "block";
+        document.getElementById("ham").style.display = "none";
+      }
+
+    </script>
+
+
+</body>
+</html>
