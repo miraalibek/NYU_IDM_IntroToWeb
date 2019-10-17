@@ -15,4 +15,15 @@
 Adding code to both flex and float grids > <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W7_Oct17/responsive_grids">example files</a></p>
 <p><strong>Activity: </strong>Looking at more samples of various UI patterns for responsive </p>
 
-<p><strong>HOMEWORK REMINDER: final project proposals due Oct 22nd</strong></p>
+<p><strong>HOMEWORK REMINDER: </strong><br>Mitderms due Oct 22nd BEFORE CLASS<br> Presentations during class</p>
+<p><b>OCT 24</b> (and most likely Oct 26th) will be workshop classes<br>
+Agenda for workshop class (some of the 24th and :
+Filling out your homepage:<br>
+- applying styles form your midterm<br>
+- building out a coherent nav and footer<br>
+<em>I will stop by each student for a check-in 10 min or so </em>
+</p>
+
+<p><b>Starting Nov 5 :: Github presentation</b><br>
+Should have sketches of your website, homework, presentations.<br>
+The goal: to talk about your progress, what you learned, discovered. What code/UX are you exploring for your website? What are difficulties and Eureka moments in your process?</p>
