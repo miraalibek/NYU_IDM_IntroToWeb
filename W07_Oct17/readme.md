@@ -13,7 +13,7 @@
 - <a href="IntrotoWeb_W7_ProportionalUnits.pdf">slide doc</a> & <a href="IntrotoWeb_W7_ProportionalUnits.key">keynote (for animation)</a></p>
 <p><strong>Responsive grids</strong> <br>
 Adding code to both flex and float grids > <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W7_Oct17/responsive_grids">example files</a></p>
-<p><strong>Activity: </strong>Looking at more samples of various UI patterns for responsive </p>
+<p><strong>Activity: </strong> Exercise: using media queries </p>
 
 <p><strong>HOMEWORK REMINDER: </strong><br>Mitderms due Oct 22nd BEFORE CLASS<br> Presentations during class</p>
 <p><b>OCT 24</b> (and most likely Oct 26th) will be workshop classes<br>
