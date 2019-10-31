@@ -9,7 +9,7 @@ Basic page layout with CSS Grid module<br>
 <a href="">Let's use these starter files to build some pages out with CSS modules</a></p>
 
 <p><strong>Fun example</strong><br>
-Masonry grid with CSS module<br>Ó
+Masonry grid with CSS module<br>
 <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W9_Oct31/masonry_grid">check out the files</a></p>
 
 
