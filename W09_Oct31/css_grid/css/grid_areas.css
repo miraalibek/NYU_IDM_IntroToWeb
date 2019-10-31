@@ -4,17 +4,17 @@
   margin:auto;
   grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%; /* this makes sure your columns are not stretching around*/
   grid-template-rows: auto 400px auto auto auto; /* you should set your row heights here rather than inside each item*/
-  grid-template-areas: 
-    ' header header header header header header ' 
+  grid-template-areas:
+    ' header header header header header header '
     ' hero hero hero hero hero hero '
-    ' module1 module1 module2 module2 module3 module3 ' 
+    ' module1 module1 module2 module2 module3 module3 '
     ' article_img article_img article_img article_txt article_txt article_txt '
     ' footer footer footer footer footer footer ';
   /* grid-column-gap: 10px; - if you want gap between the columns */
   /* grid-row-gap: 10px; - if you want gap between the rows */
    align-items:stretch;
    overflow: visible;
-} 
+}
 
 .header{
     grid-area: header;
@@ -29,8 +29,8 @@
     background-image:url(../img/myHero.png);
     background-repeat: no-repeat;
     background-position:center top; /* also can be right, left, right top, etc */
-   
-    
+
+
 }
 
 .module1, .module2, .module3{
@@ -54,19 +54,19 @@
 }
 
 .article_img{
-    grid-area: article_img;  
+    grid-area: article_img;
     align-self:stretch;
     overflow:hidden;
-    
+
 }
 
 .article_txt{
-    grid-area: article_txt; 
+    grid-area: article_txt;
     background-color:#f6f6f6;
     padding:25px;
     border-right: 1px solid #d1d1d1;
     overflow:auto;
-    
+
 }
 
 .footer{
@@ -74,5 +74,32 @@
     background-color: #222;
     color: white;
     padding:25px;
-    
+
+}
+
+
+
+@media only screen and (max-width: 530px) {
+  .myContainer {
+    display: grid;
+    width:96%;
+    margin:auto;
+    grid-template-columns: 25% 25% 25% 25%; /* this makes sure your columns are not stretching around*/
+    grid-template-rows: auto 400px auto auto auto; /* you should set your row heights here rather than inside each item*/
+    grid-template-areas:
+      ' header header header header '
+      ' hero hero hero hero'
+      ' module1 module1 module1 module1 '
+      ' module2 module2 module2 module2 '
+      ' module3 module3 module3 module3 '
+      ' article_img article_img article_img article_img '
+      ' article_txt article_txt article_txt article_txt '
+      ' footer footer footer footer';
+    /* grid-column-gap: 10px; - if you want gap between the columns */
+    /* grid-row-gap: 10px; - if you want gap between the rows */
+     align-items:stretch;
+     overflow: visible;
+  }
+
+
 }

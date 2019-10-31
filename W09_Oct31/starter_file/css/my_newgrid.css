@@ -1,0 +1,27 @@
+
+ /* THIS IS IMPORTANT! NEED TO HAVE IT SO ALL YOUR PADDING AND MARGINS WORK CORRECTLY! */
+* {
+    box-sizing: border-box;
+}
+
+
+.my_container{
+  display:grid;
+
+}
+
+
+
+
+
+
+/* start responsive code here*/
+
+@media only screen and (max-width: 530px) {
+
+
+
+}
+
+
+/*   . - a period signifies an empty grid cell   */
