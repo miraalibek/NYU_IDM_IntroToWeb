@@ -14,7 +14,7 @@ Masonry grid with CSS module<br>Ó
 
 
 <p><strong>Bootstrap</strong><br>
-What is it?  
+What is it?  <br>
 - <a href="https://getbootstrap.com/">Boostrap site</a><br>
 - <a href="https://www.w3schools.com/bootstrap/">W3Schools reference</a><br>
 - <a href="https://getbootstrap.com/docs/4.3/examples/">Examples/templates</a><br></p>
