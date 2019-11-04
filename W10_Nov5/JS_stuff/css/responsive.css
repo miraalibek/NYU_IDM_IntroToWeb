@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {  /* mobile  */
+
+    .third{
+        display: block;
+        width:100%;
+        padding:20px;
+      
+     }
+    
+    .halfW{
+    
+        display: block;
+        width:100%;
+        padding:20px;
+        
+        background: rgba(255,255,255,.7);
+        box-shadow: 2px 2px 10px rgba(100,100,100,.2);
+        margin-top: 20px;
+
+}
+  
+    
+}

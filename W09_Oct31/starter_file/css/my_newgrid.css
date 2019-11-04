@@ -7,19 +7,58 @@
 
 .my_container{
   display:grid;
+  width:100%;
+  margin:auto;
+  background:lightgray;
 
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: 100px 400px 300px;
+
+  grid-template-areas:
+  'header header header header header header'
+  'hero hero hero hero hero hero'
+  'art_image art_image art_image art_txt art_txt art_txt';
 }
 
+.art_image{
+  grid-area: art_image;
+  background: pink;
+}
 
+.art_txt{
+  grid-area:art_txt;
+  background: aqua;
+}
 
+.hero{
+  grid-area: hero;
+  background:green;
+}
 
-
+.header{
+  grid-area:header;
+  background: purple;
+}
 
 /* start responsive code here*/
 
 @media only screen and (max-width: 530px) {
 
+  .my_container{
+    display:grid;
+    width:100%;
+    margin:auto;
+    background:lightgray;
 
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 400px 300px 300px;
+
+    grid-template-areas:
+    'header header header header'
+    'hero hero hero hero'
+    'art_image art_image art_image art_image '
+    'art_txt art_txt art_txt art_txt';
+  }
 
 }
 
