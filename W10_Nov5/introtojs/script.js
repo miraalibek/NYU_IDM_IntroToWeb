@@ -7,20 +7,20 @@
 //something that stands for something else
 //sets a value to something
 //puts a name to a value
-//storing a value inside 
+//storing a value inside
 
 //a variable that contains a string
-var firstName = 'Sarah'
-var lastName = ' Dahnke'
+var firstName = 'Jo'
+var lastName = ' Doe'
 //console.log(firstName)
 //console.log(lastName)
 
 //console.log(firstName[2]);
 
-//string concatenation 
+//string concatenation
 //console.log(firstName + lastName)
 
-//storing integers 
+//storing integers
 var num = 5
 
 //storing float
@@ -29,7 +29,7 @@ var num2 = 5.4
 //console.log(num + num2)
 // subtract -
 // divide /
-// multiply * 
+// multiply *
 
 //creating an array
 
@@ -90,7 +90,7 @@ function addNumber(numberOne, numberTwo){
 
 //function that holds an if/else statement inside of it
 
-//you will test your doors by calling the function 
+//you will test your doors by calling the function
 
 //function foodDoor(){
 //    if //goes through the tacos door
@@ -133,55 +133,3 @@ function foodDoor(door) {
 }
 
 foodDoor(3)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
