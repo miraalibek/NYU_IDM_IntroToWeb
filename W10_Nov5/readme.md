@@ -13,11 +13,3 @@ Let's write a bit of javascript together. Download this <a href="introtojs.zip">
 <li>If/else statements</li>
 <li>Functions</a></li>
 </ul>
-
-
-<p>Practicing JS & JS math, events, loops
-We continue practicing our newly acquired JS skills.</p>
-<p> Firstly, we'll check in on the homework and see if there are any questions</p>
-
-<p>Then, we will look at <a href="">some examples</a> and understand their structure by changing them around.
-</p>
