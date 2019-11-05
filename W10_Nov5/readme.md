@@ -2,17 +2,16 @@
 <p><strong>Intro to JS:</strong><br>
 Let's look at some basics - like syntax and main building blocks<br>
 Here is <a href="IntrotoWeb_W8_JSBasics.pdf">the pdf</a> with that info and some resource links.</p>
-<p><strong>Code:</strong><br><a href="">Here</a> is a closer look at sample JS code and some examples of what javascript can do.</p>
+<p><strong>Code:</strong><br><a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W10_Nov5/JS_stuff">Here</a> is a closer look at sample JS code and some examples of what javascript can do.</p>
 <p>
 <strong>Exercise</strong><br>
-Let's write a bit of javascript together</p>
+Let's write a bit of javascript together. Download this <a href="https://github.com/miraalibek/NYU_IDM_IntroToWeb/tree/master/W10_Nov5/JS_stuff">zippy file</a></p>
 <ul>
-<li>Create a script with two variables, each assigned to a number. Add them together and output the result to the console. </li>
-<li>Now do the same with two strings.</li>
-<li>Create a multidimensional array related to a subject that interests you. Output two of the items in sub-arrays to the console.</li>
-<li>If/else statement >> a conditional loop</li>
-
-<li>Use this starter files --> <a href="">files TBD</a></li>
+<li>Variables:strings, integers and flaots</li>
+<li>Arrays and some array methods</li>
+<li>Loop (for)</li>
+<li>If/else statements</li>
+<li>Functions</a></li>
 </ul>
 
 
