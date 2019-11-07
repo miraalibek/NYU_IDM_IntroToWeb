@@ -1,5 +1,36 @@
 
-var position=0;
+// define starting position : we are going to move a whole row that has overflow: hidden
+
+// what is the maximum position, or how long is the whole row so we know how to move it
+
+// write the function to move the row with oneView, that would involve know what our position is and incrementing it
+
+// we need an if statement to know when we can't move the row anymore
+
+// should we hide arrow buttons when they are not used?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*var position=0;
 var slides= document.getElementsByClassName("card");
 document.getElementById('prev').style.display = "none";
 
@@ -32,4 +63,4 @@ function oneView(n) {
 
 
 
-}
+}*/
