@@ -5,52 +5,76 @@
 //console.log('Hellooooooooooooo!');
 
 
+console.log("Hello,class!");
+
+
 
 // VARIABLES
 // Defining a variable with var + type of values: string
 
 //var firstName
 
+/*
+var firstName='Joe';
+var lastName='Doe';
+console.log(firstName + " "+ lastName);
+*/
 
 //storing integers + floats
 //var num
 
+var num1= 10;
+var num2= 10.4;
+
+console.log(num1+num2);
+
+var shoppingList = ['bread','milk','peanut butter','apples'];
+console.log(shoppingList.length);
+
+//
+
+console.log(shoppingList[0]);
+
+var toDo = ['go to the store', 'send emails', 'call mom', 'feed the cat', 'clean room', 'go to the store', 'send emails', 'call mom', 'feed the cat', 'clean room'];
+
+var multiArray= [shoppingList, toDo];
+
+console.log(multiArray[0][2] + " and "+ multiArray[1][3]);
 
 
-//console.log(num+num2);
 
+var stuffToDo = toDo.length;
+var moreStuff = shoppingList.join(" * ");
 
+document.getElementById('here').innerHTML=moreStuff;
 
-
-
-
-
-// ARRAYS
-////var groceries = ['milk', 'eggs', 'bread', 'coffee'];
-
-//console.log(groceries);
-
-//arrays are indexed
-//console.log(groceries[0]);
-
-//var toDo = ['go to the store', 'send emails', 'call mom', 'feed the cat']
-
-//var stuffToDo = toDo.length; // array property
+// array property
 //var moreStuff = groceries.join(" * "); //array method, it got those () > pop() removes last element, push() adds a new element
 
 
 //console.log(stuffToDo + ' ' + moreStuff);
 
 //multidimensional array
-//var multiArray= [groceries, toDo];
+//
 
 //console.log(multiArray[0][2] + " and "+ multiArray[1][3]);
 
 //writing inside an HTML Element (we'll talk about DOM next class)
 //document.getElementById('here').innerText= multiArray[0][1];
 
+var b;
+var text="";
+for (b=0; b<shoppingList.length;b++ ){
+   text += shoppingList[b] + " <br> ";
+}
+document.getElementById('loopResult').innerHTML=text;
 
 
+if (toDo.length<10 && shoppingList.lenght<1){
+  document.getElementById('ifResult').innerText="let's do it";
+} else{
+  document.getElementById('ifResult').innerText="nope";
+}
 
 
 //LOOP THROUGH AN ARRAY
@@ -105,6 +129,14 @@ document.getElementById('func_result').innerText=myFunctionName(a,b);
 */
 
 
+function myFunctionName(firstParameter, secondParamenter){
+  return(firstParameter+secondParamenter);
+}
+
+var a = 6;
+var b = 7;
+
+document.getElementById('func_result').innerText=myFunctionName(a,b);
 
 
 
@@ -113,13 +145,13 @@ document.getElementById('func_result').innerText=myFunctionName(a,b);
 
 
 
-/*
+
 function changeMyColor(){
-  document.getElementById('func_result').style.background="green";
+  document.getElementById('ifResult').style.background="pink";
 }
 
 changeMyColor();
-*/
+
 
 
 
