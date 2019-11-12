@@ -1,10 +1,11 @@
 
 var current = 0;
 var slides= document.getElementsByClassName("oneView");
+console.log(slides.length);
 //
 
 slides[current].style.display ="flex";
-console.log(slides.length);
+
 
 function oneView(n) {
   slides[current].style.display ="none";

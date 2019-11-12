@@ -18,19 +18,19 @@
 <body>
 
   <div class="container">
-    <div class="card" onclick="openModal('img/lr_1.jpg');">
+    <div class="card" onclick="loadImg('img/lr_1.jpg')">
       <img src="img/th_1.jpg" alt="">
       <h3>image 1</h3>
     </div>
-    <div class="card"  onclick="openModal('img/lr_2.jpg');">
+    <div class="card" onclick="loadImg('img/lr_2.jpg')">
       <img src="img/th_2.jpg" alt="">
         <h3>image 2</h3>
     </div>
-    <div class="card"  onclick="openModal('img/lr_3.jpg');">
+    <div class="card" onclick="loadImg('img/lr_3.jpg')">
       <img src="img/th_3.jpg" alt="">
         <h3>image 3</h3>
     </div>
-    <div class="card"  onclick="openModal('img/lr_4.jpg');">
+    <div class="card" onclick="loadImg('img/lr_4.jpg')">
       <img src="img/th_4.jpg" alt="">
         <h3>image 4</h3>
     </div>
@@ -38,13 +38,11 @@
   </div>
 
 
-  <!-- modal div code we will put here-->
-  <div class="my_modal" id="close">
-    <button class="close" onclick="closeModal();">close</button>
+  <!-- modal div-->
+  <div class="my_modal" id="my_modal" style="display:none;">
+      <button class="close" onclick="closeModal();">close</button>
   </div>
 
-
-  <!-- connecting to javascript-->
   <script src="modal.js"></script>
 
 

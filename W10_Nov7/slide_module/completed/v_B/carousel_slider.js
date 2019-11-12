@@ -1,6 +1,7 @@
 
 var current = 0;
 var slides= document.getElementsByClassName("card");
+console.log(slides.length);
 
 // show only the first 3 before we press any buttons
 for (var i = 0; i < 3; i++) {
