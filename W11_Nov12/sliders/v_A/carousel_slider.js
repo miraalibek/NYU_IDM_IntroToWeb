@@ -52,12 +52,12 @@ function showRemainder(){
     //show current+
     for (var i = current; i < slides.length; i++) {
         slides[i].style.display="block";
-        
+
     }
     //show remainder
     for (var i = 0; i < remnant; i++) {
         slides[i].style.display="block";
-        slides[i].style.order="3"; // flex item order, append this baby at the end not at the front
+      //  slides[i].style.order="3"; // flex item order, append this baby at the end not at the front
 
     }
   }

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+
+  <meta charset="utf-8">
+  <meta name="description" content="Exercises">
+  <title>Preloader</title>
+  <meta name="keywords" content="modal, modal overlay, content slider ">
+  <meta name="author" content="NYU Tandon, Intro to Web">
+
+
+
+  <style>
+  .preloader{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    z-index: 100;
+  }
+
+  .preloader h2{
+    position:relative;
+    width:50%;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+  }
+
+  .loader {
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    border-top: 2px solid red;
+    border-bottom: 2px solid green;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    position:relative;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  </style>
+</head>
+
+
+<body onload="preloading();">
+  <!-- This is preloader screen -->
+  <div class="preloader" id="preloader" style="display:block;"><!-- style="display:block;" -->
+    <div class="loader" ></div>
+    <h2 id="timeS">time here</h2>
+  </div>
+
+  <div class="container" style="opacity:0;" id="container">
+    <div class="col-12">
+      <img src="./img/bigimg.png" alt="spotlight" style="width:100%;">
+    </div>
+    <div class="col-12">
+      <img src="./img/veryHeavy_img.png" alt="spotlight" style="width:100%;">
+    </div>
+  </div>
+
+
+
+
+  <script>
+
+  //window.onload=function(){console.log('start');}
+  var timeS=0;
+  var end =page_load_time;
+
+  var now = new Date().getTime();
+  var page_load_time = now - performance.timing.navigationStart; //that's in sec
+  console.log("User-perceived page loading time: " + page_load_time);
+
+
+
+  function preloading() {
+    myVar = setTimeout(showPage, page_load_time);
+
+
+  }
+
+  function anim() {
+
+    var id = setInterval(func, page_load_time);
+    function func() {
+      if (timeS >= page_load_time) {
+        clearInterval(id);
+      } else {
+        //what is the increment if page_load_time is a 100% then 10% is
+        //need to do the correct increment hero_text
+        var p=Math.round(page_load_time/10);
+        timeS+=p;
+        document.getElementById('timeS').innerText=timeS+"%";
+
+      }
+    }
+  }
+anim();
+
+  function showPage() {
+    console.log("here");
+    document.getElementById("preloader").style.display = "none";
+    document.getElementById("container").style.opacity = "1";
+
+  }
+
+
+
+  </script>
+
+
+</body>
+</html>

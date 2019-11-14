@@ -1,5 +1,74 @@
 
 // get all the cards into an array
+var slides=document.getElementsByClassName("card");
+console.log(slides);
+var current=0;
+
+
+function displayThree(){
+  for(i=current;i<current+3;i++){
+    slides[i].style.display="block";
+  }
+}
+
+displayThree();
+
+function clearAll(){
+  for(i=current;i<current+3;i++){
+    slides[i].style.display="none";
+  }
+}
+
+function showRemainder(){
+  //calculate remainder
+  var remnant = 3-(slides.length-current);
+  if (remnant<=0 ){
+
+    displayThree();
+
+  } else {
+    //show current+
+    for (var i = current; i < slides.length; i++) {
+        slides[i].style.display="block";
+
+    }
+    //show remainder
+    for (var i = 0; i < remnant; i++) {
+        slides[i].style.display="block";
+        slides[i].style.order="3"; // flex item order, append this baby at the end not at the front
+
+    }
+  }
+}
+
+
+
+
+function oneView(n){
+  if (current<slides.length-3){               // if current index of card is less than 12-3 (or is at the last screen)
+    clearAll();                               // clear all first
+    current+=n;
+
+    if (current>=0){                          // then increment current
+      displayThree();                         // display new set of cards
+
+    } else if (current<0){
+      current = (slides.length-current)-3;
+      showRemainder();
+    }
+
+  } else if (current>=slides.length-3 && current<slides.length){
+
+    clearAll();
+    current+=n;
+    showRemainder();
+
+    if(current===slides.length){
+      current=0;
+    }
+  }
+
+}
 
 // what is current index or where we start
 

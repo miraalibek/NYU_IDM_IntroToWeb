@@ -34,14 +34,14 @@ hr{
   border:1px solid #f5f5f5;
   min-height:50px;
   position: relative;
-  /*overflow:hidden;*/
+  overflow:hidden;
 
 }
 
 .oneView{
   width:86%;
   margin:auto;
-  /*overflow:hidden;*/
+  overflow:hidden;
 
 }
 

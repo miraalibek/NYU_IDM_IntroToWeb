@@ -1,8 +1,7 @@
 <h1>WEEK 13 | Nov24 </h1>
-<p>Bootstrap<br>
-Now that we have CSS and JS knowledge, we can come back to Bootstrap and look much closer at it's .js code</p>
-<p>Bootstrap <br>
-Looking at bootstrap-based examples:<br>
-- <a href="https://getbootstrap.com/docs/4.3/examples/carousel/">Carousel</a> & carousel.js<br>
-</p>
-<p>Next class (WEEK 14 | Dec 3) is a review class. We'll talk about how we want to use that time, what topics we want to review.</p>
+<p><b>Learning Process Presentations:</b><br>
+Celine, Cissie and Shatil</p>
+<p><strong>Materialize</strong><br>Looking into Materialize framework <a href="https://materializecss.com/">https://materializecss.com/</a><br><br>
+Now that we have some JS knowledge, we can really dig into some existing frameworks. Let's look at Materialize, its JS and CSS files.<br>
+- Here are <a href="">the source files</a>
+- These are some <a href="">templates</a> we can use to start building some interesting layouts</p>

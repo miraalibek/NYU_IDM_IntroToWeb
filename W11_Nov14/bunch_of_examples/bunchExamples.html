@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+
+  <meta charset="utf-8">
+  <meta name="description" content="Exercises">
+  <title>Bunch of Examples</title>
+  <meta name="keywords" content="preloader, sticky nav, ">
+  <meta name="author" content="NYU Tandon, Intro to Web">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- fontawesome 5-->
+  <script src="https://kit.fontawesome.com/6d58a5afcd.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/basics.css">
+  <link rel="stylesheet" type="text/css" href="css/my_grid.css">
+
+  <link rel="stylesheet" type="text/css" href="css/hero_carousel.css">
+  <link rel="stylesheet" type="text/css" href="css/sticky_nav.css">
+  <link rel="stylesheet" type="text/css" href="css/click_image.css">
+  <link rel="stylesheet" type="text/css" href="css/preloader.css">
+</head>
+
+
+<!-- onload="preloading();"-->
+<body >
+
+  <!-- This is preloader screen -->
+  <div class="preloader" id="preloader"><!-- style="display:block;" -->
+      <h2>THIS DIV IS A PRELOADER, SO STYLE AND PUT STUFF INTO IT THAT YOU NEED </h2>
+  </div>
+
+  <!-- THIS IS THE STICKY NAV -->
+  <header  id="my_header"> <!-- style="display:none;" -->
+
+    <div class="row menu" id="my_nav">
+      <div class="col-3 logo">
+        <img src="img/logo.svg" alt="">
+      </div>
+      <div class="col-9">
+
+        <!-- expanded view nav -->
+          <ul class="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Work</li>
+            <li>Contact</li>
+            <li>
+
+              <!-- THIS IS GOOGLE SEARCH BAR -->
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit" class="search"><i class="fas fa-search"></i></button>
+              </form>
+            </li>
+          </ul>
+
+        <!-- icon nav -->
+          <button class="ham"><i class="fas fa-bars" ></i></button>
+
+
+      </div>
+
+    </div>
+  </header>
+
+
+  <div class="container" id="container" > <!-- style="display:none;" -->
+
+
+    <!-- THIS IS THE IMAGE SLIDER / CAROUSEL-->
+    <div class="row">
+      <div class="col-12 hero_carousel">
+
+        <div class="one_slide">
+          <img src="./img/slider_1.jpg" alt="spotlight">
+          <div class="hero_text">
+              <h2>Slider text_1</h2>
+          </div>
+        </div>
+
+        <div class="one_slide">
+          <img src="./img/slider_2.jpg" alt="spotlight">
+          <div class="hero_text">
+              <h2>Slider text_2</h2>
+          </div>
+        </div>
+
+        <div class="one_slide">
+          <img src="./img/slider_3.jpg" alt="spotlight">
+          <div class="hero_text">
+              <h2>Slider text_3</h2>
+
+          </div>
+        </div>
+
+        <div class="one_slide">
+          <img src="./img/slider_4.jpg" alt="spotlight">
+          <div class="hero_text">
+              <h2>Slider text_4</h2>
+          </div>
+        </div>
+          <a class="prev" id="prev" onclick="showSlides(-1);">&#10094;</a>
+          <a class="next" id="next" onclick="showSlides(1);">&#10095;</a>
+      </div>
+    </div>
+
+    <!-- THIS IS IS JUST EXTRA TEXT FOR LONG SCROLL -->
+    <div class="row" style="padding: 50px 15%; text-align:center;">
+        <h2>Adding google search</h2>
+        <p style="padding-top:20px;">
+
+            You can insert a <a href="https://support.google.com/customsearch/answer/4513751?hl=en&ref_topic=4513742" target="_self">google search bar</a> into your site. You can also style it  <a href="https://www.webslake.com/article/customizing-design-of-google-custom-search-box-using-css/" target="_self">[+more info]</a><br><br>
+        </p>
+
+        <script async src="https://cse.google.com/cse.js?cx=009119687958597513607:kbhfnhq7w6h"></script>
+<div class="gcse-search"></div>
+        <p>
+
+
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus dictum hendrerit nibh sit amet pulvinar. Morbi egestas sollicitudin est, ut pulvinar turpis condimentum eu. Proin eleifend tortor est, a auctor dolor sagittis ac. <br ><br >
+
+          Vestibulum placerat commodo neque, a vulputate sapien finibus sit amet. Donec orci massa, sollicitudin euismod tortor at, tincidunt sagittis lectus. Curabitur lacinia aliquam mi vitae iaculis. Nam molestie orci ut justo interdum vestibulum. Cras diam metus, bibendum eu porttitor id, sagittis lacinia tortor. Integer et dui pretium diam aliquam fringilla vitae sed ipsum. Quisque hendrerit rhoncus sagittis. Cras aliquam vel dolor nec condimentum.
+          <br ><br >
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus dictum hendrerit nibh sit amet pulvinar. Morbi egestas sollicitudin est, ut pulvinar turpis condimentum eu. Proin eleifend tortor est, a auctor dolor sagittis ac. <br ><br >
+
+          Vestibulum placerat commodo neque, a vulputate sapien finibus sit amet. Donec orci massa, sollicitudin euismod tortor at, tincidunt sagittis lectus. Curabitur lacinia aliquam mi vitae iaculis. Nam molestie orci ut justo interdum vestibulum. Cras diam metus, bibendum eu porttitor id, sagittis lacinia tortor. Integer et dui pretium diam aliquam fringilla vitae sed ipsum. Quisque hendrerit rhoncus sagittis. Cras aliquam vel dolor nec condimentum.
+        </p>
+    </div>
+
+
+    <!-- THIS BIG IMAGE WITH TOOLTIPS -->
+    <div class="row clicky" id="clicky">
+        <div class="col-12 " >
+          <img src="img/click_on.jpeg" alt="clickable image">
+          <div class="newCursor" id="newCursor">
+            <img src="img/giphy.png" alt="new cursor">
+          </div>
+        </div>
+    </div>
+
+    <!-- THIS IS CAROUSEL WITH SLIDER-->
+    <div class="row">
+
+    </div>
+
+
+
+
+
+  </div>
+
+<!-- THIS IS PRELOAD SCREEN -->
+
+
+
+  <script src="js/hero_carousel.js"></script>
+  <script src="js/sticky_nav.js"></script>
+  <script src="js/click_image.js"></script>
+  <script src="js/preloader.js"></script>
+
+
+
+</body>
+</html>

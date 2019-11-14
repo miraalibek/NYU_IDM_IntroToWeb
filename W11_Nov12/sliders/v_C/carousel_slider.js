@@ -6,6 +6,7 @@ var slides= document.getElementsByClassName("oneView");
 var len = slides.length;
 //console.log(len+" len");
 var activeSlide = slides[current];
+
 activeSlide.classList.add("active");
 
 
@@ -41,7 +42,7 @@ function slideIt() {
     }
   }else{
 
-    // move the class to the next slide
+    // move the class to the prev slide
     activeSlide.classList.remove("active");
 
     if(current>0){

@@ -1,0 +1,59 @@
+.hero_carousel img{
+  width:100%;
+  padding:0px;
+  position:relative;
+}
+
+.prev, .next{
+  font-size:2rem;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  cursor:pointer;
+}
+
+.prev:hover, .next:hover{
+  opacity:.5;
+}
+
+.prev{
+  left:2%;
+}
+
+.next{
+  right:2%;
+}
+
+.hero_text{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
+
+.one_slide{
+  display:none;
+  position:relative;
+  left:50px;
+}
+
+.activeSlide{
+  display:block;
+  position:relative;
+  animation: sliding .2s ease;
+  left:0px;
+}
+
+@keyframes sliding {
+  from {left: 50px;}
+  to {left: 0px;}
+}
+
+.slideRight{
+  animation: sliding_right .2s ease;
+}
+/* could add more code to go back and forth from one style to another*/
+@keyframes sliding_right {
+  from {left: -50px;}
+  to {left: 0px;}
+}

@@ -1,0 +1,10 @@
+.clicky img{
+  width:100%;
+}
+
+.newCursor{
+  width:50px;
+  position:absolute;
+  top:0;
+  left:0;
+}
