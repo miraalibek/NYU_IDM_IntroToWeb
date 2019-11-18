@@ -1,5 +1,23 @@
-
 var clicky = document.getElementById('clicky');
+var cursor = document.getElementById('newCursor');
+
+
+clicky.onmousemove=function() {getCoord(event)};
+
+function getCoord(e){
+  //this is where we are going to put stuff
+  var x = e.clientX;
+  var y = e.clientY;
+  var pageLoc=window.pageYOffset;
+  var clickyLoc=clicky.offsetTop;
+  var yCursorLoc=y+(pageLoc-clickyLoc);
+  console.log(yCursorLoc);
+
+  cursor.style.left=x+"px";
+  cursor.style.top=yCursorLoc+"px";
+}
+
+/*var clicky = document.getElementById('clicky');
 var cursor = document.getElementById('newCursor');
 
 clicky.onmousemove=function() {getCoord(event)}; /// define what happens on the event
@@ -14,7 +32,7 @@ function getCoord(e){
   var pageLoc=window.pageYOffset;
   var clickyLoc=clicky.offsetTop;
   var yCursorLoc=y+(pageLoc-clickyLoc);
-  //console.log(yCursorLoc);
+  console.log(yCursorLoc);
 
   //console.log(yPage + ", " + y  ); //notice that coordinates are absolute, not relative
   //console.log(clicky.offsetParent);
@@ -25,4 +43,4 @@ function getCoord(e){
 
   cursor.style.left=x+"px";
   cursor.style.top=yCursorLoc+"px";
-}
+}*/

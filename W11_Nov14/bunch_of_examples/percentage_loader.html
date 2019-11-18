@@ -90,6 +90,14 @@
   function preloading() {
     myVar = setTimeout(showPage, page_load_time);
 
+  }
+
+
+
+  function showPage() {
+    console.log("here");
+    document.getElementById("preloader").style.display = "none";
+    document.getElementById("container").style.opacity = "1";
 
   }
 
@@ -110,15 +118,6 @@
     }
   }
 anim();
-
-  function showPage() {
-    console.log("here");
-    document.getElementById("preloader").style.display = "none";
-    document.getElementById("container").style.opacity = "1";
-
-  }
-
-
 
   </script>
 

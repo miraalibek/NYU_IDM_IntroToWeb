@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Exercises">
+    <title>JS Object Example</title>
+    <meta name="keywords" content="JS Objects, javascripts, products">
+    <meta name="author" content="NYU Tandon, Intro to Web">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+    <style>
+
+    html{
+      font-family: 'Open Sans', sans-serif;
+    }
+    .container {
+      width:400px;
+      margin:auto;
+      height:500px;
+      background:blue;
+      position:relative;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    button{
+      padding:10px 20px;
+      text-transform: uppercase;
+      background:darkblue;
+      border:0;
+      color:white;
+    }
+
+    button:hover{
+      background:aqua;
+    }
+
+    .description{
+      background: rgba(0, 0, 0, .75);
+      min-height:100px;
+      width:100%;
+      position:absolute;
+      bottom:0;
+      color:white;
+      padding:20px;
+      box-sizing: border-box;
+
+    }
+
+  </style>
+
+</head>
+
+
+
+<body >
+
+
+  <div class="container" id="image">
+    <button onclick="swap(high_heel);">product 1</button>
+    <button onclick="swap(sneaker);">product 2</button>
+    <button onclick="swap(bag);">product 3</button>
+    <button onclick="swap(bracelet);">product 4</button>
+    <div class="description">
+      <span id="type">type</span><br>
+      <span id="brand">brand</span><br>
+        <span id="price">price</span><br>
+    </div>
+  </div>
+
+
+  <script>
+    var high_heel = {
+      types : "shoe",
+      brand  : "BasicX",
+      price  : 100,
+      location  : "url('products/high_heel.jpg')",
+    };
+
+    var sneaker = {
+      types : "shoe",
+      brand  : "Blahblah",
+      price  : 50,
+      location  : "url('products/sneaker.jpg')",
+    };
+
+    var bag = {
+      types : "bag",
+      brand  : "hello Kitty",
+      price  : 150,
+      location  : "url('products/bag.jpg')",
+    };
+
+    function swap(product){
+      document.getElementById("type").innerHTML=product.types;
+      document.getElementById("brand").innerHTML=product.brand;
+      document.getElementById("price").innerHTML="$"+product.price;
+      document.getElementById("image").style.backgroundImage=product.location;
+    }
+
+
+    // function to create a product object
+    function Prod(pr_type, pr_brand, pr_price, pr_loc) {
+      this.types = pr_type;
+      this.brand = pr_brand;
+      this.price = pr_price;
+      this.location = pr_loc;
+    }
+
+    // Create a bracelet object ...specific object
+    var bracelet = new Prod("accessory", "Bling", 8, "url('products/bracelet.jpg')");
+
+    // Display product
+    document.getElementById("type").innerHTML = bracelet.types;
+    document.getElementById("brand").innerHTML = bracelet.brand;
+    document.getElementById("price").innerHTML = "$"+bracelet.price;
+    document.getElementById("image").style.backgroundImage=bracelet.location;
+
+  </script>
+
+
+
+
+
+</body>
+</html>

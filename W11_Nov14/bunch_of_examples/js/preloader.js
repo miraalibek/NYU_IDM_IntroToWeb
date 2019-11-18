@@ -1,7 +1,5 @@
 var myVar;
 
-
-
 function preloading() {
   myVar = setTimeout(showPage, 3000);
 }

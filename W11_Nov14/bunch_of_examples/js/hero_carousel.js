@@ -1,6 +1,7 @@
 var current=0;
 var n=0;
 var slides = document.getElementsByClassName("one_slide");
+console.log(slides);
 
 // first show no slides and then show the current one
 function showSlides(n) {

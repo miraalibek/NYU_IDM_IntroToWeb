@@ -22,9 +22,7 @@
   display:none;
 }
 
-.search{
 
-}
 ul{
   float:right;
   list-style: none;
@@ -42,7 +40,7 @@ ul li{
 }
 
 
-/* THESE ARE CLASSES FOR THE*/
+/* THESE ARE CLASSES FOR THE STICKY NAV*/
 
 .sticky{
   position: fixed;
