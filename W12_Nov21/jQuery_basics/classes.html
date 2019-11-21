@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+
+  <meta charset="utf-8">
+  <meta name="description" content="Exercises">
+  <title>Hello, JQuery!</title>
+  <meta name="keywords" content="jquery, javascript">
+  <meta name="author" content="NYU Tandon, Intro to Web">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="my_grid.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  <style>
+
+    html{
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    a{
+      text-decoration: none;
+      color:#000;
+      background: aquamarine;
+    }
+    a:hover{
+      background: aqua;
+    }
+
+    button{
+      font-size:.75rem;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      border:none;
+      background:#000;
+      color:white;
+      border-radius:10px;
+    }
+
+    button:hover{
+      background:aquamarine;
+      color:#000;
+    }
+
+    .hidden{
+      display:none;
+    }
+
+    .boxey{
+      padding:3px 10px;
+      background:white;
+      font-size: .75rem;
+      margin:20px 1%;
+      width:30%;
+      height:30px;
+      float:left;
+    }
+
+  </style>
+
+
+ <!--  THIS IS GOOGLE CDN. YOU CAN ALSO CALL UP MICROSOFT  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 menu" style="background:#000;">
+          <a href="jQuery_basic.html">BASICS</a> | <a href="effects.html">EFFECTS</a> | <a href="classes.html">CLASSES</a> |
+          <a href="traversing.html">TRAVERSING</a> |        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-12" style="background:#fff;">
+          <h1>Classes in jQuery</h1>
+          <p style="width:50%;float:left;">
+            add(), remove()<br><br>
+            addClass(), removeClass() & toggleClass()<br><br>
+          </p>
+          <p style="width:50%;float:left;">
+            css(): get and set css properties<br><br>
+            width(), height()<br><br>
+
+
+
+          </p>
+
+        </div>
+      </div>
+
+      <div class="row" style="border-top:1px dashed #ccc;">
+          <div class="col-4" style="background:#e2e2e2;">
+            <h4>Get & set attributes, text and html</h4>
+          </div>
+
+          <div class="col-4">
+            <p>
+
+                  &nbsp;&nbsp;$("#myElement").attr("href")<br>
+                  &nbsp;&nbsp;$("#myElement").text()<br>
+                  &nbsp;&nbsp;$("#myElement").html()<br>
+
+            </p>
+
+
+          </div>
+
+
+          <!--       GET AND SET PROPERTIES   -->
+          <!--       *************     -->
+
+          <div class="col-4" style="background:yellow;" id="getSet">
+            <p>
+              Let's get and set some stuff.
+            </p>
+            <button id="getBttn">Get'em and Set'em</button>
+
+            <script>
+            // let's write script here
+            $("#getBttn").click(function(){
+
+              //console.log($("#getSet p").text());
+              //console.log($("#getSet").html());
+              var x = $("#getSet").attr("style");
+              //console.log(x);
+              $("#getSet p").text(x);
+            });
+
+            </script>
+
+          </div>
+
+        </div>
+
+        <div class="row" style="border-top:1px dashed #ccc;">
+          <div class="col-4" style="background:#f2f2f2;">
+            <h4>Add, remove, toggle classes, effect CSS styles and change width height</h4>
+          </div>
+          <div class="col-4" >
+            <p>
+              &nbsp;&nbsp;$("div").addClass("important")<br >
+              &nbsp;&nbsp;$("#blah").removeClass("hidden")<br >
+              &nbsp;&nbsp;$("#hmm").toggleClass("hidden")<br ><br >
+              &nbsp;&nbsp;$("p").css({"opacity": ".5, "font-size": "200%"});<br >
+
+            </p>
+
+
+          </div>
+
+
+          <!--       CSS: classes and styles    -->
+          <!--       *************     -->
+
+          <div class="col-4" style="background:fuchsia;" id="changeCSS">
+            Let's change some styles here<br><br>
+            <div id="d1" class="boxey"> hello </div>
+            <div id="d2" class="boxey"> my dear</div>
+            <div id="d3" class="boxey"> jQuery</div>
+
+          </div>
+
+
+          <script>
+
+          /// GOING TO TRY SOME EFFECTS SCRIPTS HERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+        //  $("#changeCSS").mouseenter(function(){
+            //$(".boxey").css({'border':'1px solid green'});
+
+            //$(".boxey").width(25).height(50);
+        //  });
+
+
+
+          //$("#changeCSS").mouseenter(function(){
+          //  $(this).css({'background':"#fff444",'border':'1px solid green'});
+          //  });
+
+
+          //for(i=1;i<=3;i++){
+          //  var select="#d"+i;
+          //  $(select).toggleClass("boxey");
+          //}
+
+         </script>
+
+
+
+       </div>
+
+  </div>
+
+
+
+
+
+  <script src="jQuery_basic.js"></script>
+</body>
+</html>

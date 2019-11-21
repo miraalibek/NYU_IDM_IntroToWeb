@@ -24,8 +24,9 @@
     height:500px;
     background:blue;
     position:relative;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
+  /*  background:url('imagepath');*/
   }
 
   button{
@@ -50,6 +51,7 @@
     padding:20px;
     box-sizing: border-box;
 
+
   }
 
   </style>
@@ -61,9 +63,9 @@
 <body >
 
   <div class="container" id="image">
-    <button onclick="getProduct(dress);">product 1</button>
-    <button onclick="getProduct(shoe);">product 2</button>
-    <button onclick="getProduct(bag);">product 3</button>
+    <button onclick="getP(bag);">product 1</button>
+    <button onclick="getP(shoe);">product 2</button>
+    <button onclick="getP(dress);">product 3</button>
     <div class="description">
       <span id="type">Type of product</span><br>
       <span id="brand">What brand is it?</span><br>
@@ -75,7 +77,30 @@
 <!--  Let's practice our object knowledge --->
   <script>
 
-      
+  function Prod(type,brand,price,file_loc){
+    this.t_type=type;
+    this.t_brand=brand;
+    this.t_price=price;
+    this.t_loc=file_loc;
+  }
+
+  var bag = new Prod("accessory","Prada", 1000, "bag.jpg");
+  var shoe = new Prod("shoe", "converse", 300, "high_heel.jpg" );
+  var dress = new Prod("dress", "Joie", 500, "dress.jpg" );
+
+  function getP(product){
+    //console.log(product.t_type);
+    //console.log(product.t_price);
+    // console.log(product.t_loc);
+    document.getElementById('type').innerHTML=product.t_type;
+    document.getElementById('brand').innerHTML=product.t_brand;
+    document.getElementById('price').innerHTML=product.t_price;
+  //  console.log("url('"+prod.p_file+"')");
+    //document.getElementById('image').style.backgroundImage = "url('"product.t_loc+"');";
+    //url('products/dress.jpg');
+    document.getElementById('image').style.backgroundImage="url('products/"+product.t_loc+"')";
+  }
+
 
   </script>
 

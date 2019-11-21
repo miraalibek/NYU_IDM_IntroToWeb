@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+
+  <meta charset="utf-8">
+  <meta name="description" content="Exercises">
+  <title>Hello, JQuery!</title>
+  <meta name="keywords" content="jquery, javascript">
+  <meta name="author" content="NYU Tandon, Intro to Web">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="my_grid.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  <style>
+
+    html{
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    a{
+      text-decoration: none;
+      color:#000;
+      background: aquamarine;
+    }
+    a:hover{
+      background: aqua;
+    }
+
+    button{
+      font-size:.75rem;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      border:none;
+      background:#000;
+      color:white;
+      border-radius:10px;
+    }
+
+    button:hover{
+      background:aquamarine;
+      color:#000;
+    }
+
+    .hidden{
+      display:none;
+    }
+
+  </style>
+
+
+ <!--  THIS IS GOOGLE CDN. YOU CAN ALSO CALL UP MICROSOFT  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 menu" style="background:#000;">
+          <a href="jQuery_basic.html">BASICS</a> | <a href="effects.html">EFFECTS</a> | <a href="classes.html">CLASSES</a> |
+          <a href="traversing.html">TRAVERSING</a> |        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-12" style="background:#fff;">
+          <h1>jQuery is a JavaScript Library.</h1>
+          <p >
+            Simplified code<br><br>
+            Can do all that JS can do (sometimes though JS is too cumbersome to even try)<br><br>
+            Need to call up jQuery library from CDN or have it loaded on your site (like Bootstrap or fonts)<br><br>
+            <a href="https://www.w3schools.com/jquery/default.asp">W3School reference</a><br>
+            <a href="https://jquery.com/">jQuery.com</a><br>
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6" style="background:#555757;color:#fff;">
+            <h4>You can use a single js file that you can download</h4>
+        </div>
+        <div class="col-6" style="background:#1e2626;color:#fff;">
+            <h4>Or you can call up a CDN (check out the code inside head element here)</h4>
+        </div>
+      </div>
+
+      <div class="row" style="text-align:center; background:#e3e3e3;">
+        <div class="col-12">
+          <h3>jQuery uses a format, <span style="background:yellow;">$(selector).action()</span> to assign an element(s) to an event.</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4" style="background:#fff;">
+          <h5>Find elements using selectors</h5>
+          <p>
+            <b>$("p")</b> -- Select all p elements<br ><br>
+            <b>$("#my_id")</b> -- id selector<br ><br>
+            <b>$(".my_class")</b> -- class selector<br ><br>
+            <b>$("div p")</b> -- selects all p element inside a div
+          </p>
+          <a href="https://www.w3schools.com/jquery/jquery_selectors.asp">more selectors</a>
+        </div>
+        <div class="col-4" style="background:#f2f2f2;">
+          <h5>Do something using jQuery methods</h5>
+          <p>
+            <b>$(".test").hide();</b> -- Hide .test elements<br ><br>
+            <b>$(#test).toggleClass("myClass")</b> -- adds and removes class<br ><br>
+            <b>$("div").first().css("background-color","green")</b> -- turns background green for first div element
+          </p>
+        </div>
+        <div class="col-4" style="background:#fff;">
+          <h5>Events</h5>
+          <p>
+            <b>$("p").click();</b> <br ><br>
+            click, dblclick, mouseenter, mouseleave<br><br>
+            <b>$("p").click(function(){<br >
+                &nbsp;<em>// action goes here!!</em><br >
+              });</b>
+          </p>
+          <a href="https://www.w3schools.com/jquery/jquery_events.asp">info events</a><br>
+          <a href="https://api.jquery.com/category/events/">expanded list of events</a>
+        </div>
+      </div>
+
+        <div class="row" style="border-top:1px dashed #ccc;">
+
+          <div class="col-4" >
+            <h5>Checking if document is ready</h5>
+            <p>
+              $(document).ready(function(){<br >
+
+                  &nbsp;&nbsp;<em>// jQuery methods go here...</em>
+                  <br >
+              });
+            </p>
+          </div>
+          <div class="col-8" style="background:#aaa;padding:50px;">
+            <h3>
+              $(document).ready(function(){<br >
+              &nbsp;  $("button").click(function(){<br >
+                &nbsp;&nbsp;  $("p").hide();<br >
+              &nbsp;  });<br >
+            });<br >
+
+          </h3>
+
+          </div>
+        </div>
+
+
+        <div class="row" style="background:yellow;">
+          <div class="col-3">
+            <h2>Let's practice!</h2>
+
+          </div>
+          <div class="col-9">
+
+            <!--  We'll show/hid an element when we click a button -->
+            <p id="thisOne">
+              We'll show/hide an element when we click a button
+            </p>
+
+            <button >click this</button>
+
+
+          </div>
+
+        </div>
+
+
+
+
+  </div>
+
+
+
+
+
+<!--  <script>
+    // this is regular JS function
+    function clickThis(){
+      //document.getElementById('thisOne').style.display="none";
+      //document.getElementById('thisOne').classList.toggle("hidden");
+      //$("#thisOne").hide();
+      //$("#thisOne").toggleClass("hidden");
+      //console.log("blah");
+    }
+    // this is jQuery function
+
+    //document.querySelector("button").onclick=clickThis;
+      $("button").click(
+        function (){
+          $("#thisOne").toggleClass("hidden");
+        }
+      )
+
+
+  </script>
+-->
+
+
+  <script src="jQuery_basic.js"></script>
+</body>
+</html>

@@ -1,5 +1,8 @@
 <h1>WEEK 12 | Nov 21 </h1>
 <p><b>Learning Process Presentations:</b><br>
 Danna, Eddie & Michelle</p>
-<p>JS objects, website hosting, internet structure in macro (DNS), read about server side of the web</p>
-<p>Only 5 classes left before Final Project presentations, so let's talk more about what needs to be done and how we can use our time wisely.</p>
+<p><b>Jquery: intro</b> <br>
+JQuery integration & syntax(selectors)<br><br>
+
+What you can accomplish > examples
+(hide/show, fade, slide, add/append, remove, addClass, set CSS)</p>
