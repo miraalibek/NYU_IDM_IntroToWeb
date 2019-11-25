@@ -124,14 +124,25 @@
 
             <script>
             // let's write script here
+
+            var mytext = $("#getSet p").text();
+            console.log(mytext);
+
             $("#getBttn").click(function(){
+              //$(this).text(mytext);
+              var x= $("#getSet").attr("style");
+              console.log(x);
+            });
+
+
+            /*$("#getBttn").click(function(){
 
               //console.log($("#getSet p").text());
               //console.log($("#getSet").html());
               var x = $("#getSet").attr("style");
               //console.log(x);
               $("#getSet p").text(x);
-            });
+            });*/
 
             </script>
 
@@ -167,11 +178,18 @@
 
           </div>
 
-
           <script>
 
+            $(".boxey").css({'border':'1px solid green'});
           /// GOING TO TRY SOME EFFECTS SCRIPTS HERE
 
+            $("#changeCSS").mouseenter(function(){
+              //$("#d1").toggleClass("boxey");
+
+            //  var myDivs = $(".boxey");
+            //  myDivs.each().fadeOut();
+
+            });
 
 
 
@@ -186,7 +204,10 @@
 
 
 
-          
+
+
+
+
 
         //  $("#changeCSS").mouseenter(function(){
             //$(".boxey").css({'border':'1px solid green'});
@@ -216,8 +237,5 @@
 
 
 
-
-
-  <script src="jQuery_basic.js"></script>
 </body>
 </html>

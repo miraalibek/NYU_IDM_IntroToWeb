@@ -181,7 +181,19 @@
 
           <script>
 
+          //  $(".boxey").fadeOut();
+
+            $("#fadeSlide").mouseenter(function(){
+              $(".boxey").slideUp();
+            });
+            $("#fadeSlide").mouseleave(function(){
+              $(".boxey").slideDown();
+            });
+
           /// GOING TO TRY SOME EFFECTS SCRIPTS HERE
+
+
+
          </script>
 
         </div>
@@ -214,8 +226,21 @@
           </div>
 
 
-        <!--  <script src="jquery.color.js"></script> -->
+         <script src="jquery.color.js"></script> 
           <script>
+
+          $("#thingy").animate({
+            opacity:'.5',
+            left:'30px'
+            },"3000"
+          );
+          $("#thingy").animate({
+            opacity:'1',
+            top:'60px',
+            backgroundColor: '#ff0033',
+            },"3000"
+          );
+
 
           /// GOING TO TRY SOME EFFECTS SCRIPTS HERE
 

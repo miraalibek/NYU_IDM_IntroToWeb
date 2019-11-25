@@ -159,7 +159,7 @@
             <h2>Let's practice!</h2>
 
           </div>
-          <div class="col-9">
+          <div class="col-9" id="bigYellow">
 
             <!--  We'll show/hid an element when we click a button -->
             <p id="thisOne">
@@ -178,7 +178,19 @@
 
   </div>
 
+<script>
 
+  $("button").click(function(){
+      //console.log("blah");
+      $("#thisOne").hide();
+  });
+
+  $("#bigYellow").mouseenter(function(){
+        $("#thisOne").show();
+
+  });
+
+</script>
 
 
 
@@ -204,7 +216,5 @@
   </script>
 -->
 
-
-  <script src="jQuery_basic.js"></script>
 </body>
 </html>
