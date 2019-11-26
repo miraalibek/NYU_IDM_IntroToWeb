@@ -3,7 +3,7 @@
 Now that we have some JS knowledge, we can really dig into some existing frameworks. Let's look at Materialize, its JS and CSS files.<br>
 </p>
 
-<p><strong>Bootstrap</strong><br>Looking into Materialize framework <a href="https://getbootstrap.com/">https://getbootstrap.com/</a><br><br>
+<p><strong>Bootstrap</strong><br>Looking into Bootstrap framework <a href="https://getbootstrap.com/">https://getbootstrap.com/</a><br><br>
 Bootstrap is a very popular framework that can be used to build out some pretty complicated sites.<br>
 </p>
 
