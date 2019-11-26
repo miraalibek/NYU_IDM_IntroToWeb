@@ -7,4 +7,4 @@ Now that we have some JS knowledge, we can really dig into some existing framewo
 Bootstrap is a very popular framework that can be used to build out some pretty complicated sites.<br>
 </p>
 
-<p><b>In preparation for workshop classes, please post your updated files on Github and let me knw (via slack) what issues you are battling in your projects. This way I can review them before class and be prepared to help you, since it is hard to fix some more involved problems in 15min meetups:) </b></p>
+<p><b>In preparation for workshop classes, please post your updated files on Github and let me know (via slack) what issues you are battling in your projects. This way I can review them before class and be prepared to help you, since it is hard to fix some more involved problems in 15min meetups:) </b></p>
