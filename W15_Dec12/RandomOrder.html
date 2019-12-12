@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+
+  <meta charset="utf-8">
+  <meta name="description" content="Exercises">
+  <title>Final Presentations: Order</title>
+  <meta name="keywords" content="random, javascript ">
+  <meta name="author" content="NYU Tandon, Intro to Web">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+
+  <style>
+  *{
+    box-sizing:border-box;
+
+  }
+  html{
+    font-family: 'Solway', serif;
+    line-height: 1.8rem;
+    font-size: 1.15rem;
+
+  }
+  body{
+    margin:0;
+
+  }
+  .container{
+    width:86%;
+    border-right: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+  }
+
+  .next{
+    flex:0 0 100%;
+    background:#e2e2e2;
+    padding:20px;
+  }
+  .to_present{
+    flex:0 0 50%;
+    border-right:1px solid #e2e2e2;
+    padding:20px;
+  }
+  .done{
+    flex:0 0 50%;
+    padding:20px;
+    background:#f2f2f2;
+  }
+  button{
+    font-size:.75rem;
+    border:none;
+    background:black;
+    color:white;
+    border-radius:10px;
+    padding:5px 15px;
+  }
+  button:hover{
+    background:red;
+  }
+  </style>
+</head>
+
+
+<body>
+
+  <div class="container">
+    <div class="next" >
+
+        <span style="font-size:1.25rem;text-transform:uppercase;color:white;background:red;">next up:</span><br /><br />
+        <span style="font-size:1.75rem;font-weight:bold;" id="next">-----</span><br /><br />
+        <button onclick="pick();">WHO'S NEXT?</button>
+        <button onclick="done();">Done!</button>
+    </div>
+    <div class="to_present">
+      <span style="font-size:.75rem;text-transform:uppercase;color:white;background:black;">yet to present</span><br />
+        <span style="font-size:1.15rem;" id="roster">-----</span>
+    </div>
+    <div class="done">
+      <span style="font-size:.75rem;text-transform:uppercase;color:white;background:darkgray;">yet to present</span><br />
+        <span style="font-size:1.15rem; color:#bbb;" id="done">Done!!!!! congrats</span>
+    </div>
+
+
+  </div>
+
+
+  <script>
+  var roster = [
+    'Alvarado Jr,Cesar Alejandro',
+    'Bevilacqua, Marcello',
+    'Ferreira,Kevin',
+    'Hebou, Addy Stephane',
+    'Kalo,Taline',
+    'Oke,Mariam Adebanke',
+    'Shatil,Mohammad',
+    'Yi,Eddie'
+
+
+  ];
+
+  var donezo = [
+    'Yu,Celine',
+    'Arevalo, Alejandra',
+    'Nguyen,Thao Minh',
+    'Jaime,Danna',
+    'Lin,Zheng yu',
+    'Loor,Kiva',
+    'Tabansi,Michelle Chisom',
+    'Wang,Cissie',
+    'Graesser, Tatyana',
+    'Cohen, Sophia'
+  ];
+
+  txt2="";
+
+  for(b=0;b<donezo.length;b++){
+    txt2 += donezo[b]+"<br />";
+  }
+  document.getElementById('done').innerHTML=txt2;
+
+
+  function rosterFill(){
+    i=0;
+    var txt = "";
+    for(i=0;i<roster.length;i++){
+      txt += roster[i]+"<br />";
+    }
+    document.getElementById('roster').innerHTML=txt;
+  };
+
+  rosterFill();
+
+
+
+  function pick(){
+    var r = Math.floor(Math.random() * roster.length) ;
+    //console.log(roster[r]);
+    document.getElementById('next').innerText=roster[r];
+  }
+
+  function done(){
+    var done = document.getElementById('next').innerText;
+
+    var addit= donezo.push(done);
+
+    var txt2="";
+    for(b=0;b<donezo.length;b++){
+          txt2 += donezo[b]+"<br />";
+    }
+    document.getElementById('done').innerHTML=txt2;
+
+    var pos= roster.indexOf(done);
+
+    roster.splice(pos,1);
+    document.getElementById('roster').innerHTML=" ";
+    rosterFill();
+
+  }
+
+
+
+
+
+  </script>
+
+
+</html>
